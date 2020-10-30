@@ -25,3 +25,7 @@ Muhammad Usman, **Wenxi Wang**, Kaiyuan Wang, Marko Vasic, Haris Vikalo, Sarfraz
 *International Conference on Tools and Algorithms for the Construction and Analysis of Systems*  
 (TACAS 2020).  
 
+Muhammad Usman, **Wenxi Wang**, Kaiyuan Wang, Marko Vasic, Haris Vikalo, Sarfraz Khurshid  
+[A Study of the Learnability of Relational Properties (Model Counting Meets Machine Learning)](https://dl.acm.org/doi/pdf/10.1145/3385412.3386015?casa_token=uIktMpJIzrsAAAAA:3M-I8OWCUi33jmI4SQI6-O0PAHJBej_IUp5AmQ3uBeOvGD9-bF5UGgV-6vUxBZg6Fw2wGrFBUqif)  
+ACM SIGPLAN Conference on Programming Language Design and Implementation*  
+(PLDI 2020).  
