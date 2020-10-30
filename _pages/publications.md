@@ -29,3 +29,32 @@ Muhammad Usman, **Wenxi Wang**, Kaiyuan Wang, Marko Vasic, Haris Vikalo, Sarfraz
 [A Study of the Learnability of Relational Properties (Model Counting Meets Machine Learning)](https://dl.acm.org/doi/pdf/10.1145/3385412.3386015?casa_token=uIktMpJIzrsAAAAA:3M-I8OWCUi33jmI4SQI6-O0PAHJBej_IUp5AmQ3uBeOvGD9-bF5UGgV-6vUxBZg6Fw2wGrFBUqif)  
 ACM SIGPLAN Conference on Programming Language Design and Implementation*  
 (PLDI 2020).  
+
+Muhammad Usman, **Wenxi Wang**, Kaiyuan Wang, Cagdas Yelen, Nima Dini and Sarfraz Khurshid  
+[Study of Learning Data Structure Invariants Using Off-the-shelf Tools](https://kaiyuanw.github.io/papers/paper20-spin19.pdf)
+International SPIN Symposium on Model Checking of Software*  
+(SPIN 2019).  
+
+**Wenxi Wang**, Kaiyuan Wang, Milos Gligoric, Sarfraz Khurshid  
+[Incremental Analysis of Evolving Alloy Models](https://link.springer.com/chapter/10.1007/978-3-030-17462-0_10)  
+International Conference on Tools and Algorithms for the Construction and Analysis of Systems*  
+(TACAS 2019).  
+
+**Wenxi Wang**, Kaiyuan Wang, Mengshi Zhang, Sarfraz Khurshid  
+[Learning to Optimize the Alloy Analyzer](https://ieeexplore.ieee.org/document/8730165)  
+IEEE International Conference on Software Testing, Verification and Validation  
+(ICST 2019).  
+
+**Wenxi Wang**, Harald Sondergaard, Peter J. Stuckey  
+[Wombit: A Portfolio Bit-Vector Solver using Word-Level Propagation](https://people.eng.unimelb.edu.au/pstuckey/papers/wombit.pdf)  
+Journal of Automated Reasoning  
+(JAR 2018).  
+
+**Wenxi Wang**, Harald Sondergaard, Peter J. Stuckey  
+[A Bit-Vector Solver with Word-Level Propagation](https://people.eng.unimelb.edu.au/pstuckey/papers/cpaior2016b.pdf)  
+Integration of AI and OR Techniques in Constraint Programming  
+(CPAIOR 2016)  
+
+
+
+
