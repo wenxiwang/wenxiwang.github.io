@@ -24,7 +24,7 @@ We are enhancing the Alloy Analyzer, a well-known software modeling tool, based 
 ## **A Bit-Vector Solver with Word-Level Propagation using Machine Learning**
 **Introduction:**
 Solving bit-vector constraint problems is an NP-hard back-end problem involved in many areas such as software verification, cryptography, scheduling and planning. Bit-vector Satisfiability Modulo Theory (SMT) solver is designed to solve huge amounts of complicated bit-vector constraints. The common method called bit-blasting is to break the bit-vector constraints down to the propositional formulas and solve them with SAT solver. However, during the ‘break’ process, lots of useful information get lost which is the bottleneck of this method. We aim to solve bit-vector constraints directly in bit-vector/word level using advanced constraint solving method.  
-**Contributions:**
+**Contributions:**  
     **•** Designed a novel learning and back-tracking architecture based on SAT solver called MiniSAT particularly for the word-level bit-vector SMT solver, and proposed special algorithms and policies for improving the word-level solving efficiency. This work was published at **CPAIOR 2016**.  
     **•** Proposed a portfolio bit-vector solver called Wombit which outperformed state-of-the-art solver STP significantly both in time and memory usage. This work was published at **JAR 2018**.  
 
