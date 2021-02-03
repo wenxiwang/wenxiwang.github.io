@@ -6,12 +6,12 @@ author_profile: true
 ---
 
 Jiayi Yang, **Wenxi Wang**, Darko Marinov, Sarfraz Khurshid  
-AlloyMC: Alloy Meets Model Counting (To Appear)  
+[AlloyMC: Alloy Meets Model Counting](https://dl.acm.org/doi/pdf/10.1145/3368089.3417938)   
 *The ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software  Engineering, Tool Demos*  
 (ESEC/FSE Demo 2020)  
 
 Muhammad Usman, **Wenxi Wang**, Sarfraz Khurshid  
-TestMC: A Framework for Testing Model Counters (To Appear)  
+[TestMC: A Framework for Testing Model Counters](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9286130&tag=1)  
 *IEEE/ACM International Conference on Automated Software Engineering*  
 (ASE 2020).  
 
