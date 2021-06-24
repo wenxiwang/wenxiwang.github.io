@@ -7,9 +7,8 @@ author_profile: true
 
 Yang Hu, **Wenxi Wang**, Casen Hunger, Riley Wood, Sarfraz Khurshid, Mohit Tiwari
 ACHyb: A Hybrid Analysis Approach to Detect Kernel Access Control Vulnerabilities  
-*The ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software  Engineering, Research Paper* (to appear)
-
-(ESEC/FSE 2021)  
+*The ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software  Engineering (to appear)*  
+(ESEC/FSE 2021)   
 
 Jiayi Yang, **Wenxi Wang**, Darko Marinov, Sarfraz Khurshid  
 [AlloyMC: Alloy Meets Model Counting](https://dl.acm.org/doi/pdf/10.1145/3368089.3417938)   
