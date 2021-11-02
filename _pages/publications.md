@@ -5,6 +5,15 @@ permalink: /publications/
 author_profile: true
 ---
 
+**Wenxi Wang**, Yang Hu, Mohit Tiwari, Sarfraz Khurshid, Kenneth McMillan, Risto Miikkulainen
+[NeuroComb: Improving SAT Solving with Graph Neural Networks](https://arxiv.org/abs/2110.14053)
+(*arXiv*)  
+
+**Wenxi Wang**, Pu Yi, Sarfraz Khurshid, Darko Marinov
+Initial Results on Counting Test Orders forOrder-Dependent Flaky Tests using Alloy (to appear) 
+*33rd IFIP International Conference on Testing Software and Systems* 
+(ICTSS 2021)  
+
 Yang Hu, **Wenxi Wang**, Casen Hunger, Riley Wood, Sarfraz Khurshid, Mohit Tiwari
 [ACHyb: A Hybrid Analysis Approach to Detect Kernel Access Control Vulnerabilities](https://dl.acm.org/doi/abs/10.1145/3468264.3468627)  
 *The ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software  Engineering*  
