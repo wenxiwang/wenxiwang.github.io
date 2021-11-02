@@ -10,7 +10,7 @@ author_profile: true
 (arXiv Report October 2021)  
 
 **Wenxi Wang**, Pu Yi, Sarfraz Khurshid, Darko Marinov  
-Initial Results on Counting Test Orders forOrder-Dependent Flaky Tests using Alloy (to appear)  
+Initial Results on Counting Test Orders for Order-Dependent Flaky Tests using Alloy (to appear)  
 *33rd IFIP International Conference on Testing Software and Systems*  
 (ICTSS 2021)  
 
