@@ -16,7 +16,7 @@ Initial Results on Counting Test Orders for Order-Dependent Flaky Tests using Al
 (ICTSS 2021)  
 
 Yang Hu, **Wenxi Wang**, Casen Hunger, Riley Wood, Sarfraz Khurshid, Mohit Tiwari
-[ACHyb: A Hybrid Analysis Approach to Detect Kernel Access Control Vulnerabilities](https://dl.acm.org/doi/abs/10.1145/3468264.3468627)  
+[ACHyb: A Hybrid Analysis Approach to Detect Kernel Access Control Vulnerabilities](https://dl.acm.org/doi/pdf/10.1145/3468264.3468627)  
 *The ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software  Engineering*  
 (ESEC/FSE 2021)   
 
@@ -26,7 +26,7 @@ Jiayi Yang, **Wenxi Wang**, Darko Marinov, Sarfraz Khurshid
 (ESEC/FSE Demo 2020)  
 
 Muhammad Usman, **Wenxi Wang**, Sarfraz Khurshid  
-[TestMC: A Framework for Testing Model Counters](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9286130&tag=1)  
+[TestMC: A Framework for Testing Model Counters](https://dl.acm.org/doi/abs/10.1145/3324884.3416563)  
 *IEEE/ACM International Conference on Automated Software Engineering*  
 (ASE 2020).  
 
