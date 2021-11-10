@@ -7,7 +7,7 @@ author_profile: true
 
 **Wenxi Wang**, Yang Hu, Mohit Tiwari, Sarfraz Khurshid, Kenneth McMillan, Risto Miikkulainen  
 [NeuroComb: Improving SAT Solving with Graph Neural Networks](https://arxiv.org/abs/2110.14053)  
-(arXiv Report submitted on October 2021)  
+(arXiv Report submitted in October 2021)  
 
 **Wenxi Wang**, Pu Yi, Sarfraz Khurshid, Darko Marinov  
 Initial Results on Counting Test Orders for Order-Dependent Flaky Tests using Alloy  
