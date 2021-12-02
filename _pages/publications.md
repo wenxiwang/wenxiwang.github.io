@@ -9,6 +9,12 @@ author_profile: true
 [NeuroComb: Improving SAT Solving with Graph Neural Networks](https://arxiv.org/abs/2110.14053)  
 (arXiv Report submitted in October 2021)  
 
+Chengpeng Li, Chenguang Zhu, **Wenxi Wang**, August Shi  
+Repairing Order-Dependent Flaky Tests via Test Generation  
+(to appear)  
+*44th International Conference on Software Engineering*  
+(ICSE 2022)
+
 **Wenxi Wang**, Pu Yi, Sarfraz Khurshid, Darko Marinov  
 Initial Results on Counting Test Orders for Order-Dependent Flaky Tests using Alloy  
 (to appear)  
