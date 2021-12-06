@@ -19,7 +19,7 @@ Initial Results on Counting Test Orders for Order-Dependent Flaky Tests using Al
 *33rd IFIP International Conference on Testing Software and Systems*  
 (ICTSS 2021)  
 
-Yang Hu, **Wenxi Wang**, Casen Hunger, Riley Wood, Sarfraz Khurshid, Mohit Tiwari
+Yang Hu, **Wenxi Wang**, Casen Hunger, Riley Wood, Sarfraz Khurshid, Mohit Tiwari  
 [ACHyb: A Hybrid Analysis Approach to Detect Kernel Access Control Vulnerabilities](https://dl.acm.org/doi/pdf/10.1145/3468264.3468627)  
 *The ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software  Engineering*  
 (ESEC/FSE 2021)   
