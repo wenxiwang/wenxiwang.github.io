@@ -6,8 +6,7 @@ author_profile: true
 ---
 
 Chengpeng Li, Chenguang Zhu, **Wenxi Wang**, August Shi  
-Repairing Order-Dependent Flaky Tests via Test Generation  
-(to appear)  
+Repairing Order-Dependent Flaky Tests via Test Generation (to appear)  
 *44th International Conference on Software Engineering*  
 (ICSE 2022)
 
@@ -16,8 +15,7 @@ Repairing Order-Dependent Flaky Tests via Test Generation
 (arXiv Report submitted in October 2021)  
 
 **Wenxi Wang**, Pu Yi, Sarfraz Khurshid, Darko Marinov  
-Initial Results on Counting Test Orders for Order-Dependent Flaky Tests using Alloy  
-(to appear)  
+Initial Results on Counting Test Orders for Order-Dependent Flaky Tests using Alloy (to appear)  
 *33rd IFIP International Conference on Testing Software and Systems*  
 (ICTSS 2021)  
 
