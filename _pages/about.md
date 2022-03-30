@@ -17,4 +17,4 @@ During my Masters, I was working with [Prof. Peter Stuckey](https://people.eng.u
 - NeurIPS 2022 Reviewer.
 - PLDI 2022 Artifact Evaluation Committee Member. 
 - PLDI 2021 Artifact Evaluation Committee Member.  
-- **External Reviewer**: TACAS 2022, FSE 2021, ICST 2020, ASE 2020, ISSRE 2020, and ICSE 2019.
+- ***External Reviewer***: TACAS 2022, FSE 2021, ICST 2020, ASE 2020, ISSRE 2020, and ICSE 2019.
