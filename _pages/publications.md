@@ -5,6 +5,11 @@ permalink: /publications/
 author_profile: true
 ---
 
+**Wenxi Wang**, Yang Hu, Kenneth McMillan, Sarfraz Khurshid  
+SymMC: Approximate Model Enumeration and Counting Using Symmetry Information for Alloy Specifications (to appear)
+*21st ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering*  
+(ESEC/FSE 2022)
+
 Chengpeng Li, Chenguang Zhu, **Wenxi Wang**, August Shi  
 Repairing Order-Dependent Flaky Tests via Test Generation (to appear)  
 *44th International Conference on Software Engineering*  
