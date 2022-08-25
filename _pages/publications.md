@@ -16,7 +16,7 @@ Repairing Order-Dependent Flaky Tests via Test Generation (to appear)
 (ICSE 2022)
 
 **Wenxi Wang**, Yang Hu, Mohit Tiwari, Sarfraz Khurshid, Kenneth McMillan, Risto Miikkulainen  
-[NeuroComb: Improving SAT Solving with Graph Neural Networks](papers/neurocomb.pdf)  
+[NeuroComb: Improving SAT Solving with Graph Neural Networks](../papers/neurocomb.pdf)  
 (arXiv Report submitted in October 2021)  
 
 **Wenxi Wang**, Pu Yi, Sarfraz Khurshid, Darko Marinov  
