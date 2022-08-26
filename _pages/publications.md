@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 14. **Wenxi Wang**, Yang Hu, Kenneth McMillan, Sarfraz Khurshid  
-    SymMC: Approximate Model Enumeration and Counting Using Symmetry Information for Alloy Specifications (to appear)
+    SymMC: Approximate Model Enumeration and Counting Using Symmetry Information for Alloy Specifications (to appear)   
     *21st ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering*  
     (ESEC/FSE 2022)
 
