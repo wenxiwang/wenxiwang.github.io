@@ -22,5 +22,5 @@ During my Masters, I was working with [Prof. Peter Stuckey](https://people.eng.u
 
 **News**: 
 
-- Honorably got in Rising Stars in EECS, 2023
+- Honorably got in Rising Stars in EECS, 2022
 - Joined Automated Reasoning Group at Amazon Web Service as a research summer intern, 2022.
