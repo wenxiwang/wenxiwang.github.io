@@ -50,7 +50,7 @@ author_profile: true
    (TACAS 2020).  
 
 5. Muhammad Usman, **Wenxi Wang**, Kaiyuan Wang, Cagdas Yelen, Nima Dini and Sarfraz Khurshid  
-   [Study of Learning Data Structure Invariants Using Off-the-shelf Tools](../papers/spin2019.pdf)  
+   [A Study of Learning Data Structure Invariants Using Off-the-shelf Tools](../papers/spin2019.pdf)  
    International SPIN Symposium on Model Checking of Software*  
    (SPIN 2019).  
 
