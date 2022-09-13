@@ -8,7 +8,7 @@ author_profile: true
 14. **Wenxi Wang**, Yang Hu, Kenneth McMillan, Sarfraz Khurshid  
     [SymMC: Approximate Model Enumeration and Counting Using Symmetry Information for Alloy Specifications](../papers/SymMC.pdf)   
     *21st ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering*  
-    (ESEC/FSE 2022)
+    (ESEC/FSE 2022) [[code](https://github.com/wenxiwang/SymMC-Tool)]
 
 13. Chengpeng Li, Chenguang Zhu, **Wenxi Wang**, August Shi  
     [Repairing Order-Dependent Flaky Tests via Test Generation](../papers/ICSE2022.pdf)  
