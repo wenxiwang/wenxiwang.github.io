@@ -2,6 +2,7 @@
 permalink: /
 title: "Wenxi Wang - About Me"
 excerpt: "About me"
+description: <span style="font-family:Consolas; font-size:1.35em;">Email&colon; wenxiw@utexas.edu</span>
 author_profile: true
 redirect_from: 
   - /about/
