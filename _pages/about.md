@@ -2,12 +2,12 @@
 permalink: /
 title: "Wenxi Wang - About Me"
 excerpt: "About me"
-description: <span style="font-family:Consolas; font-size:1.35em;">Email&colon; wenxiw@utexas.edu</span>
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+<span style="font-family:Consolas; font-size:1.35em;">Email: wenxiw@utexas.edu</span>
 
 I am a fifth year PhD student at Electrical and Computer Engineering (ECE) Department, University of Texas at Austin, supervised by [Prof. Sarfraz Khurshid](https://users.ece.utexas.edu/~khurshid/). I am also working with [Prof. Kenneth Mcmillan](http://mcmil.net/wordpress/) for improving SAT solving, and [Prof. Darko Marinov](http://mir.cs.illinois.edu/marinov/) for joint work on Alloy, Flaky Tests, etc. My interests mainly focus on SAT/SMT solving, SAT based Model Checking, Model Counting, Software Testing, and Machine Learning including Neural Networks.
 
