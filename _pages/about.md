@@ -15,6 +15,7 @@ During my Masters, I was working with [Prof. Peter Stuckey](https://people.eng.u
 
 **Services**: 
 
+- PLDI 2023 Artifact Evaluation Committee Member. 
 - ECOOP 2023 Artifact Evaluation Committee Member and Extended Review Committee Member
 - USENIX Security 2023 Artifact Evaluation Committee Member.
 - NeurIPS 2022 Reviewer.
