@@ -17,6 +17,7 @@ I am a fifth year PhD student at Electrical and Computer Engineering (ECE) Depar
 - ICML 2023 Reviewer.
 - PLDI 2023 Artifact Evaluation Committee Member. 
 - ECOOP 2023 Artifact Evaluation Committee Member and Extended Review Committee Member
+- ISSTA 2023 Artifact Evaluation Committee Member.
 - USENIX Security 2023 Artifact Evaluation Committee Member.
 - NeurIPS 2022 Reviewer.
 - ISSTA 2022 Artifact Evaluation Committee Member.
