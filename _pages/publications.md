@@ -4,8 +4,9 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
+
 15. Armin Biere, Nils Froleyks, **Wenxi Wang**
-    CadiBack: Extracting Backbones with CaDiCaL
+    CadiBack: Extracting Backbones with CaDiCaL   
     *The 26th International Conference on Theory and Applications of Satisfiability Testing* (to appear)
     (SAT 2023) (Tool paper) 
 
