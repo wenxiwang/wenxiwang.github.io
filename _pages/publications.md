@@ -40,7 +40,7 @@ author_profile: true
    (ESEC/FSE Tool Demo 2020)  
 
 8. Muhammad Usman, **Wenxi Wang**, Sarfraz Khurshid  
-   [TestMC: A Framework for Testing Model Counters](../papers/TestMC.pdf)  
+   [TestMC: testing model counters using differential and metamorphic testing](../papers/TestMC.pdf)  
    *IEEE/ACM International Conference on Automated Software Engineering*  
    (ASE 2020)  
 
