@@ -27,6 +27,8 @@ Wenxi Wang is a fifth year Ph.D. candidate at The University of Texas at Austin,
 - *External Reviewer*: TACAS 2022, FSE 2021, ICST 2020, ASE 2020, ISSRE 2020, and ICSE 2019.
 
 **News**: 
-
+- receive the George J. Heuer, Jr. Ph.D. Endowed Graduate Fellowship Fund for 2023-2024 from the Cockrell School of Engineering, UT Austin.
 - Honorably got in [Rising Stars in EECS 2022](https://risingstars.utexas.edu/)
 - Joined Automated Reasoning Group at Amazon Web Service as a research summer intern, 2022.
+
+
