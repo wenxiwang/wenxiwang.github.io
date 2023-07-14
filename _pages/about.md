@@ -9,7 +9,7 @@ redirect_from:
 ---
 <span style="font-family:Consolas; font-size:1.35em;">Email: wenxiw@utexas.edu</span>
 
-I am a fifth year PhD student at Electrical and Computer Engineering (ECE) Department, University of Texas at Austin, supervised by [Prof. Sarfraz Khurshid](https://users.ece.utexas.edu/~khurshid/). I am also working with [Prof. Kenneth Mcmillan](http://mcmil.net/wordpress/) for improving SAT solving, and [Prof. Darko Marinov](http://mir.cs.illinois.edu/marinov/) for joint work on Alloy, Flaky Tests, etc. My interests mainly focus on SAT/SMT solving, SAT based Model Checking, Model Counting, Software Testing, and Machine Learning including Neural Networks.
+Wenxi Wang is a fifth year Ph.D. candidate at The University of Texas at Austin, advised by [Prof. Sarfraz Khurshid](https://users.ece.utexas.edu/~khurshid/). She is also working with [Prof. Kenneth Mcmillan](http://mcmil.net/wordpress/) for model checking related research, and [Prof. Darko Marinov](http://mir.cs.illinois.edu/marinov/) for joint work on Alloy, Flaky Tests, etc. Her research lies in the intersection of Software Engineering, Formal Methods, and Machine Learning, incorporating methods across these three fields with an emphasis on enhancing the efficiency and robustness of formal reasoning tools, improving the reliability and security of critical software systems, and studying the learning ability of machine learning models. 
 
 
 **Services**: 
