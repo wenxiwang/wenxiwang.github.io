@@ -11,9 +11,9 @@ redirect_from:
 
 Wenxi Wang is a fifth year Ph.D. candidate at The University of Texas at Austin, in the Electrical and Computer Engineering Department. Her research lies in the intersection of **Software Engineering**, **Formal Methods**, and **Machine Learning**, incorporating methods across these three fields with an emphasis on enhancing the efficiency and robustness of formal reasoning tools, improving the reliability and security of critical software systems, and studying the learning ability of machine learning models. She is supervised by [Prof. Sarfraz Khurshid](https://users.ece.utexas.edu/~khurshid/) in doing software verfication and testing. She is also working with [Prof. Kenneth Mcmillan](http://mcmil.net/wordpress/) for model checking related research, and [Prof. Darko Marinov](http://mir.cs.illinois.edu/marinov/) for joint work on Alloy, Flaky Tests, etc.  
 
-<span style="color:red">
-****I am on the academic job market this year (2023-2024)****
-</span>
+**<span style="color:red">
+**I am on the academic job market this year (2023-2024)**
+</span>**
 
 **Services**: 
 
