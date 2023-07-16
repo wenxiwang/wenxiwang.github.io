@@ -8,7 +8,7 @@ author_profile: true
 15. Armin Biere, Nils Froleyks, **Wenxi Wang**   
     [CadiBack: Extracting Backbones with CaDiCaL](../papers/cadiback.pdf)   
     *The 26th International Conference on Theory and Applications of Satisfiability Testing*
-    (SAT 2023) (Tool paper) 
+    (SAT 2023) (Tool paper) (To appear)
 
 14. **Wenxi Wang**, Yang Hu, Kenneth McMillan, Sarfraz Khurshid  
     [SymMC: Approximate Model Enumeration and Counting Using Symmetry Information for Alloy Specifications](../papers/SymMC.pdf)   
