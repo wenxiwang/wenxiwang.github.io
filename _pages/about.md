@@ -16,7 +16,7 @@ Wenxi Wang is a fifth year Ph.D. candidate at The University of Texas at Austin,
 
 **News**: 
 - Honorably be invited as the session chair of "Verification and Testing" session in ECOOP 2023.
-- receive the George J. Heuer, Jr. Ph.D. Endowed Graduate Fellowship Fund for 2023-2024 from the Cockrell School of Engineering, UT Austin.
+- received the George J. Heuer, Jr. Ph.D. Endowed Graduate Fellowship Fund for 2023-2024 from the Cockrell School of Engineering, UT Austin.
 - [Our CadiBack tool paper](../papers/cadiback.pdf) got accepted by SAT'2023.
 - Honorably got in [Rising Stars in EECS 2022](https://risingstars.utexas.edu/)
 - Joined Automated Reasoning Group at Amazon Web Service as a research summer intern, 2022.
