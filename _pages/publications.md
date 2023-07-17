@@ -12,7 +12,7 @@ Fixing Privilege Escalations in Cloud Access Control with MaxSAT and Graph Neura
 
 15. Armin Biere, Nils Froleyks, **Wenxi Wang**   
     [CadiBack: Extracting Backbones with CaDiCaL](../papers/cadiback.pdf)   
-    *The 26th International Conference on Theory and Applications of Satisfiability Testing*	
+    *The 26th International Conference on Theory and Applications of Satisfiability Testing*	  
     (SAT 2023) (Tool paper) (To appear)
 
 14. **Wenxi Wang**, Yang Hu, Kenneth McMillan, Sarfraz Khurshid  
