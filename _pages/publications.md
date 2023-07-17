@@ -9,6 +9,7 @@ author_profile: true
 Fixing Privilege Escalations in Cloud Access Control with MaxSAT and Graph Neural Networks
 *the 38th IEEE/ACM International Conference on Automated Software Engineering*  
 (ASE 2023) (Conditional Accepted)
+* denotes that these authors contribute equally to the paper.
 
 15. Armin Biere, Nils Froleyks, **Wenxi Wang**   
     [CadiBack: Extracting Backbones with CaDiCaL](../papers/cadiback.pdf)   
