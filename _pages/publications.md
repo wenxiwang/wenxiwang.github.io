@@ -5,10 +5,10 @@ permalink: /publications/
 author_profile: true
 ---
 
-16. Yang Hu*, **Wenxi Wang***, Sarfraz Khurshid, Kenneth McMillan, Mohit Tiwari
+16. Yang Hu\*, **Wenxi Wang\***, Sarfraz Khurshid, Kenneth McMillan, Mohit Tiwari
 Fixing Privilege Escalations in Cloud Access Control with MaxSAT and Graph Neural Networks
 *the 38th IEEE/ACM International Conference on Automated Software Engineering*  
-(ASE 2023)
+(ASE 2023) (Conditional Accepted)
 
 15. Armin Biere, Nils Froleyks, **Wenxi Wang**   
     [CadiBack: Extracting Backbones with CaDiCaL](../papers/cadiback.pdf)   
