@@ -8,7 +8,7 @@ author_profile: true
 16. Yang Hu\*, **Wenxi Wang\***, Sarfraz Khurshid, Kenneth McMillan, Mohit Tiwari  
 Fixing Privilege Escalations in Cloud Access Control with MaxSAT and Graph Neural Networks  
 *38th IEEE/ACM International Conference on Automated Software Engineering*  
-(ASE 2023) (Conditional Accepted)  
+(ASE 2023) (Conditionally Accepted)  
 \* denotes that these authors contribute equally to the paper.
 
 15. Armin Biere, Nils Froleyks, **Wenxi Wang**   
@@ -19,7 +19,7 @@ Fixing Privilege Escalations in Cloud Access Control with MaxSAT and Graph Neura
 14. **Wenxi Wang**, Yang Hu, Kenneth McMillan, Sarfraz Khurshid  
     [SymMC: Approximate Model Enumeration and Counting Using Symmetry Information for Alloy Specifications](../papers/SymMC.pdf)   
     *21st ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering*  
-    (ESEC/FSE 2022) [[code](https://github.com/wenxiwang/SymMC-Tool)]
+    (ESEC/FSE 2022)
 
 13. Chengpeng Li, Chenguang Zhu, **Wenxi Wang**, August Shi  
     [Repairing Order-Dependent Flaky Tests via Test Generation](../papers/ICSE2022.pdf)  
@@ -47,12 +47,12 @@ Fixing Privilege Escalations in Cloud Access Control with MaxSAT and Graph Neura
 
 8. Muhammad Usman, **Wenxi Wang**, Sarfraz Khurshid  
    [TestMC: testing model counters using differential and metamorphic testing](../papers/TestMC.pdf)  
-   *IEEE/ACM International Conference on Automated Software Engineering*  
+   *IEEE/ACM International Conference on Automated Software Engineering  
    (ASE 2020)  
 
 7. Muhammad Usman, **Wenxi Wang**, Kaiyuan Wang, Marko Vasic, Haris Vikalo, Sarfraz Khurshid  
    [A Study of the Learnability of Relational Properties (Model Counting Meets Machine Learning)](../papers/PLDI2020.pdf)  
-   *ACM SIGPLAN Conference on Programming Language Design and Implementation*  
+   *ACM SIGPLAN Conference on Programming Language Design and Implementation  
    (PLDI 2020)  
 
 6. **Wenxi Wang**, Muhammad Usman, Alyas Almaawi, Kaiyuan Wang, Kuldeep S. Meel and Sarfraz Khurshid  
