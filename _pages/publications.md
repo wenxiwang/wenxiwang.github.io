@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 16. Yang Hu\*, **Wenxi Wang\***, Sarfraz Khurshid, Kenneth McMillan, Mohit Tiwari  
-[Fixing Privilege Escalations in Cloud Access Control with MaxSAT and Graph Neural Networks] (../papers/IAMPERE_ase2023.pdf)  
+[Fixing Privilege Escalations in Cloud Access Control with MaxSAT and Graph Neural Networks](../papers/IAMPERE_ase2023.pdf)  
 *38th IEEE/ACM International Conference on Automated Software Engineering*  
 (ASE 2023) 
 \* denotes that these authors contribute equally to the paper.
