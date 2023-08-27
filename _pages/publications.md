@@ -6,15 +6,15 @@ author_profile: true
 ---
 
 16. Yang Hu\*, **Wenxi Wang\***, Sarfraz Khurshid, Kenneth McMillan, Mohit Tiwari  
-Fixing Privilege Escalations in Cloud Access Control with MaxSAT and Graph Neural Networks  
+[Fixing Privilege Escalations in Cloud Access Control with MaxSAT and Graph Neural Networks] (../papers/IAMPERE_ase2023.pdf)  
 *38th IEEE/ACM International Conference on Automated Software Engineering*  
-(ASE 2023) (To appear)  
+(ASE 2023) 
 \* denotes that these authors contribute equally to the paper.
 
 15. Armin Biere, Nils Froleyks, **Wenxi Wang**   
     [CadiBack: Extracting Backbones with CaDiCaL](../papers/cadiback.pdf)   
     *The 26th International Conference on Theory and Applications of Satisfiability Testing*	  
-    (SAT 2023) (Tool paper) (To appear)
+    (SAT 2023) (Tool paper) 
 
 14. **Wenxi Wang**, Yang Hu, Kenneth McMillan, Sarfraz Khurshid  
     [SymMC: Approximate Model Enumeration and Counting Using Symmetry Information for Alloy Specifications](../papers/SymMC.pdf)   
