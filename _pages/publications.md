@@ -5,30 +5,37 @@ permalink: /publications/
 author_profile: true
 ---
 
-17. Yang Hu\*, **Wenxi Wang\***, Sarfraz Khurshid, Kenneth McMillan, Mohit Tiwari  
+18. **Wenxi Wang**, Yang Hu, Mohit Tiwari, Sarfraz Khurshid, Kenneth McMillan, Risto Miikkulainen  
+[NeuroBack: Improving CDCL SAT Solving using Graph Neural Networks](https://arxiv.org/abs/2110.14053#:~:text=Aiming%20to%20make%20GNN%20improvements,is%20sufficient%20to%20query%20the)  
+arXiv preprint
+
+17. Yang Hu\*, **Wenxi Wang\***, Sarfraz Khurshid, Mohit Tiwari
+[Interactive Greybox Penetration Testing for Cloud Access Control using IAM Modeling and Deep Reinforcement Learning](https://arxiv.org/abs/2304.14540)
+arXiv preprint
+\* denotes that these authors contribute equally to the paper.
+
+16. Yang Hu\*, **Wenxi Wang\***, Sarfraz Khurshid, Kenneth McMillan, Mohit Tiwari  
 [Fixing Privilege Escalations in Cloud Access Control with MaxSAT and Graph Neural Networks](../papers/IAMPERE_ase2023.pdf)  
 *38th IEEE/ACM International Conference on Automated Software Engineering*  
 (ASE 2023)  
 \* denotes that these authors contribute equally to the paper.
 
-16. Armin Biere, Nils Froleyks, **Wenxi Wang**   
+15. Armin Biere, Nils Froleyks, **Wenxi Wang**   
     [CadiBack: Extracting Backbones with CaDiCaL](../papers/cadiback.pdf)   
     *The 26th International Conference on Theory and Applications of Satisfiability Testing*	  
     (SAT 2023) (Tool paper) 
 
-15. **Wenxi Wang**, Yang Hu, Kenneth McMillan, Sarfraz Khurshid  
+14. **Wenxi Wang**, Yang Hu, Kenneth McMillan, Sarfraz Khurshid  
     [SymMC: Approximate Model Enumeration and Counting Using Symmetry Information for Alloy Specifications](../papers/SymMC.pdf)   
     *21st ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering*  
     (ESEC/FSE 2022)
 
-14. Chengpeng Li, Chenguang Zhu, **Wenxi Wang**, August Shi  
+13. Chengpeng Li, Chenguang Zhu, **Wenxi Wang**, August Shi  
     [Repairing Order-Dependent Flaky Tests via Test Generation](../papers/ICSE2022.pdf)  
     *44th International Conference on Software Engineering*  
     (ICSE 2022)
 
-13. **Wenxi Wang**, Yang Hu, Mohit Tiwari, Sarfraz Khurshid, Kenneth McMillan, Risto Miikkulainen  
-    [NeuroComb: Improving SAT Solving with Graph Neural Networks](../papers/neurocomb.pdf)  
-    (arXiv Report submitted in October 2021)
+
 
 12. **Wenxi Wang**, Pu Yi, Sarfraz Khurshid, Darko Marinov  
     [Initial Results on Counting Test Orders for Order-Dependent Flaky Tests using Alloy](../papers/ictss2021.pdf)  
