@@ -10,8 +10,8 @@ author_profile: true
 arXiv preprint
 
 17. Yang Hu\*, **Wenxi Wang\***, Sarfraz Khurshid, Mohit Tiwari
-[Interactive Greybox Penetration Testing for Cloud Access Control using IAM Modeling and Deep Reinforcement Learning](https://arxiv.org/abs/2304.14540)
-arXiv preprint
+[Interactive Greybox Penetration Testing for Cloud Access Control using IAM Modeling and Deep Reinforcement Learning](https://arxiv.org/abs/2304.14540) 
+arXiv preprint 
 \* denotes that these authors contribute equally to the paper.
 
 16. Yang Hu\*, **Wenxi Wang\***, Sarfraz Khurshid, Kenneth McMillan, Mohit Tiwari  
