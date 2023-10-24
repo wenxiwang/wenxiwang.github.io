@@ -15,7 +15,7 @@ Wenxi Wang is a sixth year Ph.D. candidate at The University of Texas at Austin,
 
 
 **News**: 
-- [Oct 2023] we have made our [DataBack](https://huggingface.co/datasets/neuroback/DataBack), the first large-scale dataset (containing 120,286 data samples) that is publicly available in the domain of deep learning for SAT!
+- [Oct 2023] we have released our [DataBack](https://huggingface.co/datasets/neuroback/DataBack), the first large-scale dataset (containing 120,286 data samples) that is publicly available in the domain of deep learning for SAT!
 - [Aug 2023] be invited by the program chair committee of ICLR 2024 to serve as Reviewer.
 - [Jul 2023] [Our IAM repair paper](../papers/IAMPERE_ase2023.pdf) got accepted by ASE'2023!
 - [Jul 2023] Honorably be invited as the session chair of ["Verification and Testing" session in ECOOP 2023](https://2023.ecoop.org/program/program-ecoop-2023/Detailed-Table).
