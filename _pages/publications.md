@@ -9,7 +9,7 @@ author_profile: true
 [NeuroBack: Improving CDCL SAT Solving using Graph Neural Networks](https://arxiv.org/abs/2110.14053#:~:text=Aiming%20to%20make%20GNN%20improvements,is%20sufficient%20to%20query%20the)  
 arXiv preprint
 
-17. Yang Hu\*, **Wenxi Wang\***, Sarfraz Khurshid, Mohit Tiwari
+17. Yang Hu\*, **Wenxi Wang\***, Sarfraz Khurshid, Mohit Tiwari 
 [Interactive Greybox Penetration Testing for Cloud Access Control using IAM Modeling and Deep Reinforcement Learning](https://arxiv.org/abs/2304.14540) 
 arXiv preprint 
 \* denotes that these authors contribute equally to the paper.
