@@ -1,0 +1,175 @@
+\section{Publications}
+
+%\footnote{* denotes that these authors contribute equally to the paper.}
+ \cvitem{}{Published \emph{15 refereed conference papers and 2 refereed journal papers}.  My papers were accepted at top-tier venues in software engineering (ICSE, ESEC/FSE, ASE, ESEC/FSEDemo), formal methods
+ 	(TACAS, SAT), programming languages (PLDI), machine learning (ICLR) and automated reasoning (CPAIOR, JAR)}
+\vspace{-3ex}
+
+%% Adapted from https://tex.stackexchange.com/questions/244496/counting-backwards
+
+\renewcommand{\refname}{\vspace{-1cm}}
+
+\newcounter{bibCounter}
+
+\makeatletter
+\zref@newprop{bibCounter}{\the\value{bibCounter}}
+\zref@addprop{LastPage}{bibCounter}
+\newcommand*{\bibCounterLast}{%
+	\zref@extractdefault{LastPage}{bibCounter}{0}%
+}
+%\renewcommand*{\thebibCounter}{%
+%	\@arabic{\numexpr\bibCounterLast+1-\value{bibCounter}\relax}%
+%}
+\renewcommand*{\thebibCounter}{%
+	\@arabic{\numexpr\value{bibCounter}\relax}%
+}
+
+\makeatother
+
+\renewcommand*{\bibliographyitemlabel}{\stepcounter{bibCounter}\setcounter{enumiv}{\thebibCounter}[\arabic{enumiv}]}
+
+\bibliographystylea{publications}
+%\bibliographystyles{publications}
+% \bibliographystylec{publications}
+% \bibliographystylew{publications}
+
+\begin{thebibliography}{99} % Use a suitable number here based on the widest label
+	% Entry 4
+	\bibitem{neuroback}
+	\textbf{Wenxi Wang}, Yang Hu, Mohit Tiwari, Sarfraz Khurshid, Kenneth L. McMillan, Risto Miikkulainen.
+	\emph{``NeuroBack: Improving CDCL SAT Solving using Graph Neural Networks.''}
+	In \textit{The 12th International Conference on Learning Representations\\(ICLR 2024)}. \href{https://arxiv.org/pdf/2110.14053.pdf}{\color{color1}{\textbf{[PDF]}}}
+	
+	
+	\bibitem{iampere}
+	Yang Hu*\footnote{* denotes that these authors contribute equally to the paper.\label{note1}}, \textbf{Wenxi Wang}*\footref{note1}, Sarfraz Khurshid, Kenneth L. McMillan, Mohit Tiwari.
+	\emph{``Fixing Privilege Escalations in Cloud Access Control with MaxSAT and Graph Neural Networks.''}
+	In \textit{The 38th IEEE/ACM International Conference on Automated Software Engineering (ASE 2023)}. \href{https://wenxiwang.github.io/papers/IAMPERE_ase2023.pdf}{\color{color1}{\textbf{[PDF]}}}
+	
+	% Entry 5
+	\bibitem{cadiback}
+	Armin Biere, Nils Froleyks, \textbf{Wenxi Wang}.
+	\emph{``CadiBack: Extracting Backbones with CaDiCal.''}
+	In \textit{The 26th International Conference on Theory and Applications of Satisfiability Testing (SAT 2023)}.
+	Tool Paper. \href{https://wenxiwang.github.io/papers/cadiback.pdf}{\color{color1}{\textbf{[PDF]}}}
+	
+	% Entry 6
+	\bibitem{symmc}
+	\textbf{Wenxi Wang}, Yang Hu, Kenneth L. McMillan, Sarfraz Khurshid.
+	\emph{``SymMC: Approximate Model Enumeration and Counting Using Symmetry Information for Alloy Specifications.''}
+	In \textit{The 30th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE 2022)}. \href{https://wenxiwang.github.io/papers/SymMC.pdf}{\color{color1}{\textbf{[PDF]}}}
+	
+	% Entry 7
+	\bibitem{flaky}
+	Chengpeng Li, Chenguang Zhu, \textbf{Wenxi Wang}, August Shi.
+	\emph{``Repairing Order-Dependent Flaky Tests via Test Generation.''}
+	In \textit{The 44th International Conference on Software Engineering (ICSE 2022)}. \href{https://wenxiwang.github.io/papers/ICSE2022.pdf}{\color{color1}{\textbf{[PDF]}}}
+	
+	% Entry 8
+	\bibitem{flakyalloy}
+	\textbf{Wenxi Wang}, Pu Yi, Sarfraz Khurshid, Darko Marinov.
+	\emph{``Initial Results on Counting Test Orders for Order-Dependent Flaky Tests using Alloy.''}
+	In \textit{The 33rd IFIP International Conference on Testing Software and Systems (ICTSS 2021)}.
+	Note: Short Paper. \href{https://wenxiwang.github.io/papers/ictss2021.pdf}{\color{color1}{\textbf{[PDF]}}}
+	
+	% Entry 9
+	\bibitem{achyb}
+	Yang Hu, \textbf{Wenxi Wang}, Casen Hunger, Riley Wood, Sarfraz Khurshid, Mohit Tiwari.
+	\emph{``ACHyb: A Hybrid Analysis Approach to Detect Kernel Access Control Vulnerabilities.''}
+	In \textit{The 29th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE 2021)}. \href{https://wenxiwang.github.io/papers/ACHyb.pdf}{\color{color1}{\textbf{[PDF]}}}
+	
+	% Entry 0
+	\bibitem{alloymc}
+	Jiayi Yang, \textbf{Wenxi Wang}, Darko Marinov, Sarfraz Khurshid.
+	\emph{``AlloyMC: Alloy Meets Model Counting.''}
+	In \textit{The 28th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE 2020)}. Tool Demo. \href{https://wenxiwang.github.io/papers/AlloyMC.pdf}{\color{color1}{\textbf{[PDF]}}}
+	
+	% Entry 
+	\bibitem{testmc}
+	Muhammad Usman, \textbf{Wenxi Wang}, Sarfraz Khurshid.
+	\emph{``TestMC: Testing Model Counters using Differential and
+		Metamorphic Testing.''}
+	In \textit{The 35th IEEE/ACM International Conference on Automated Software Engineering (ASE 2020)}. \href{https://wenxiwang.github.io/papers/TestMC.pdf}{\color{color1}{\textbf{[PDF]}}}
+	
+	% Entry 2
+	\bibitem{symmetrystudy}
+	\textbf{Wenxi Wang}, Muhammad Usman, Alyas Almaawi, Kaiyuan Wang, Kuldeep S. Meel, Sarfraz Khurshid.
+	\emph{``A Study of Symmetry Breaking Predicates and Model Counting.''}
+	In \textit{International Conference on Tools and Algorithms for the Construction and Analysis of Systems (TACAS 2020)}. \href{https://wenxiwang.github.io/papers/symmetry_study.pdf}{\color{color1}{\textbf{[PDF]}}}
+	
+	% Entry 3
+	\bibitem{mlmodelstudy}
+	Muhammad Usman, \textbf{Wenxi Wang}, Kaiyuan Wang, Cagdas Yelen, Nima Dini, Sarfraz Khurshid.
+	\emph{``A Study of Learning Likely Data Structure Properties using Machine Learning Models.''}
+	In \textit{International Journal on Software Tools for Technology Transfer (STTT 2020)}. \href{https://wenxiwang.github.io/papers/sttt2020.pdf}{\color{color1}{\textbf{[PDF]}}}
+	
+	% Entry 4
+	\bibitem{mlrelationstudy}
+	Muhammad Usman, \textbf{Wenxi Wang}, Kaiyuan Wang, Marko Vasic, Haris Vikalo, Sarfraz Khurshid.
+	\emph{``A Study of the Learnability of Relational Properties (Model Counting Meets Machine Learning).''}
+	In \textit{The 41st ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI 2020)}. \href{https://wenxiwang.github.io/papers/PLDI2020.pdf}{\color{color1}{\textbf{[PDF]}}}
+	
+	% Entry 5
+	\bibitem{leaninginvariants}
+	Muhammad Usman, \textbf{Wenxi Wang}, Kaiyuan Wang, Cagdas Yelen, Nima Dini, Sarfraz Khurshid.
+	\emph{``A Study of Learning Data Structure Invariants Using Off-the-shelf Tools.''}
+	In \textit{The 26th International SPIN Symposium on Model Checking of Software (SPIN 2019)}. \href{https://wenxiwang.github.io/papers/spin2019.pdf}{\color{color1}{\textbf{[PDF]}}}
+	
+	% Entry 6
+	\bibitem{alloyincremental}
+	\textbf{Wenxi Wang}, Kaiyuan Wang, Milos Gligoric, Sarfraz Khurshid.
+	\emph{``Incremental Analysis of Evolving Alloy Models.''}
+	In \textit{International Conference on Tools and Algorithms for the Construction and Analysis of Systems (TACAS 2019)}. \href{https://wenxiwang.github.io/papers/incrementalAlloy.pdf}{\color{color1}{\textbf{[PDF]}}}
+	
+	% Entry 7
+	\bibitem{optimizealloy}
+	\textbf{Wenxi Wang}, Kaiyuan Wang, Mengshi Zhang, Sarfraz Khurshid.
+	\emph{``Learning to Optimize the Alloy Analyzer.''}
+	In \textit{The 12th IEEE International Conference on Software Testing, Verification and Validation (ICST 2019)}. \href{https://wenxiwang.github.io/papers/Learning_to_Optimize_the_Alloy_Analyzer.pdf}{\color{color1}{\textbf{[PDF]}}}
+	
+	% Entry 8
+	\bibitem{wombit}
+	\textbf{Wenxi Wang}, Harald Sondergaard, Peter J. Stuckey.
+	\emph{``Wombit: A Portfolio Bit-Vector Solver using Word-Level Propagation.''}
+	In \textit{Journal of Automated Reasoning (JAR 2018)}. \href{https://wenxiwang.github.io/papers/Wombit.pdf}{\color{color1}{\textbf{[PDF]}}}
+	
+	% Entry 9
+	\bibitem{bitvec}
+	\textbf{Wenxi Wang}, Harald Sondergaard, Peter J. Stuckey.
+	\emph{``A Bit-Vector Solver with Word-Level Propagation.''}
+	In \textit{Integration of AI and OR Techniques in Constraint Programming (CPAIOR 2016)}. \href{https://wenxiwang.github.io/papers/cpaior2016.pdf}{\color{color1}{\textbf{[PDF]}}}
+	
+	% Add more \bibitem entries as needed
+	
+\end{thebibliography}
+
+%\nocitea{neuroback}
+%\nocitea{tac}
+%\nocitea{learnability}
+
+%\nocitea{iampere}
+%\nocitea{cadiback}
+%\nocitea{symmc}
+%\nocitea{symmc}
+%\nocitea{flaky}
+%\nocitea{flakyalloy}
+%\nocitea{achyb}
+%\nocitea{alloymc}
+%\nocitea{testmc}
+%\nocitea{symmetrystudy}
+%\nocitea{mlmodelstudy}
+%\nocitea{mlrelationstudy}
+%\nocitea{leaninginvariants}
+%\nocitea{alloyincremental}
+%\nocitea{optimizealloy}
+%\nocitea{wombit}
+%\nocitea{bitvec}
+
+
+
+%% \renewcommand{\bibsection}{\subsection{\bibname}}
+\bibliographya{publications}
+%\bibliographys{publications}
+% \bibliographyc{publications}
+% \bibliographyw{publications}
+

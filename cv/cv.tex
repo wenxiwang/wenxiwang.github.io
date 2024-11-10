@@ -1,0 +1,43 @@
+% CV ver. general
+% Copyright 2018
+% All Rights Reserved
+
+\documentclass[letterpaper,sans,11pt]{moderncv}
+
+\input{macros}
+\usepackage[scale=0.75, margin=.9in]{geometry}
+\usepackage{footmisc}
+\newcommand{\CVVersion}{resume}
+
+% version classic-blue
+\moderncvstyle{classic}
+\moderncvcolor{purple}
+\renewcommand{\familydefault}{\sfdefault}
+
+\pagestyle{fancy}
+\rfoot{\thepage/\pageref{LastPage}}
+
+\input{person}
+
+
+\begin{document}
+
+\makecvtitle
+
+\vspace{-30pt}
+\input{interest}
+\input{employment}
+\input{education}
+\input{publications}
+\input{preprints}
+\input{patent}
+\input{work}
+\input{awards}
+\input{teaching}
+\input{mentoring}
+\input{service}
+\input{presentations}
+%\clearpage\newpage
+%\input{references}
+
+\end{document}
