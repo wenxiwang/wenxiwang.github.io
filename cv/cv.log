@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.16)  7 DEC 2024 20:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.16)  20 APR 2025 11:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1166,7 +1166,6 @@ Package hyperref Info: Link coloring OFF on input line 23.
 \@outlinefile=\write6
 \openout6 = `cv.out'.
 
-\pagenumberwidth=\skip123
 \makecvheaddetailsbox=\box79
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/microtype/mt-cmr.cfg
@@ -1184,8 +1183,8 @@ nput line 25.
 (/usr/local/texlive/2024/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd
 )
 \makecvheadpicturebox=\box80
-\makecvheaddetailswidth=\skip124
-\makecvheadpicturewidth=\skip125
+\makecvheaddetailswidth=\skip123
+\makecvheadpicturewidth=\skip124
 \makecvheadnamebox=\box81
 
 
@@ -1245,10 +1244,10 @@ Package rerunfilecheck Info: File `cv.out' has not changed.
 (rerunfilecheck)             Checksum: 6432EEA5D6E29D92B492CFD896DCC211;1943.
  ) 
 Here is how much of TeX's memory you used:
- 32990 strings out of 473579
- 626770 string characters out of 5728233
- 1047480 words of memory out of 5000000
- 55059 multiletter control sequences out of 15000+600000
+ 32989 strings out of 473579
+ 626760 string characters out of 5728233
+ 1047456 words of memory out of 5000000
+ 55058 multiletter control sequences out of 15000+600000
  587717 words of font info for 162 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  93i,14n,120p,999b,655s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1266,10 +1265,10 @@ cm-super/sfss1095.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm
 uper/sfss3583.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-sup
 er/sfsx1000.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super
 /sfsx1095.pfb>
-Output written on cv.pdf (5 pages, 201122 bytes).
+Output written on cv.pdf (5 pages, 200976 bytes).
 PDF statistics:
- 247 PDF objects out of 1000 (max. 8388607)
- 209 compressed objects within 3 object streams
+ 251 PDF objects out of 1000 (max. 8388607)
+ 214 compressed objects within 3 object streams
  44 named destinations out of 1000 (max. 500000)
  49293 words of extra memory for PDF output out of 51595 (max. 10000000)
 
