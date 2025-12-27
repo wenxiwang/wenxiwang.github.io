@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.16)  14 DEC 2025 16:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.16)  9 DEC 2025 15:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1208,27 +1208,10 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 al/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local
 /texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}{/usr/local/
 texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}]
-
-[2]
 No file a.bbl.
-) (./patent.tex
+) (./awards.tex)
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\new@ifnextchar' on input line 20.
-
-No file a.bbl.
-) (./work.tex) (./awards.tex) (./teaching.tex
-
-[3]) (./mentoring.tex
-
-LaTeX Warning: Citation `learnability' on page 4 undefined on input line 12.
-
-
-LaTeX Warning: Citation `learnability' on page 4 undefined on input line 13.
-
-)
-
-[4] 
+[2] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (./cv.aux)
  ***********
@@ -1240,38 +1223,39 @@ L3 programming layer <2024-09-10>
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.83pt have occurred.
 
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `cv.out' has not changed.
-(rerunfilecheck)             Checksum: 0001787F61562A8F39AF1E0D49D9798C;1265.
- ) 
+(rerunfilecheck)             Checksum: 2183FF332D354F738A59C4E5FD0A9E85;705.
+ )
+(\end occurred inside a group at level 1)
+
+### simple group (level 1) entered at line 27 ({)
+### bottom level 
 Here is how much of TeX's memory you used:
- 32945 strings out of 473579
- 626095 string characters out of 5728233
- 1043425 words of memory out of 5000000
- 55037 multiletter control sequences out of 15000+600000
- 587450 words of font info for 159 fonts, out of 8000000 for 9000
+ 32853 strings out of 473579
+ 624923 string characters out of 5728233
+ 1039164 words of memory out of 5000000
+ 55004 multiletter control sequences out of 15000+600000
+ 585644 words of font info for 143 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 93i,14n,120p,999b,658s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/fontawesome5/FontAweso
-me5Free-Regular.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/font
-awesome5/FontAwesome5Free-Solid.pfb></usr/local/texlive/2024/texmf-dist/fonts/t
-ype1/public/cm-super/sfsi1000.pfb></usr/local/texlive/2024/texmf-dist/fonts/typ
-e1/public/cm-super/sfsi1095.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1
-/public/cm-super/sfsi1200.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/p
-ublic/cm-super/sfss0800.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/pub
-lic/cm-super/sfss0900.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/publi
-c/cm-super/sfss1000.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/
-cm-super/sfss1095.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm
--super/sfss1440.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-s
-uper/sfss3583.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-sup
-er/sfsx1000.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super
-/sfsx1095.pfb>
-Output written on cv.pdf (4 pages, 195485 bytes).
+ 93i,14n,120p,999b,771s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/fontawes
+ome5/FontAwesome5Free-Regular.pfb></usr/local/texlive/2024/texmf-dist/fonts/typ
+e1/public/fontawesome5/FontAwesome5Free-Solid.pfb></usr/local/texlive/2024/texm
+f-dist/fonts/type1/public/cm-super/sfsi1000.pfb></usr/local/texlive/2024/texmf-
+dist/fonts/type1/public/cm-super/sfsi1095.pfb></usr/local/texlive/2024/texmf-di
+st/fonts/type1/public/cm-super/sfsi1200.pfb></usr/local/texlive/2024/texmf-dist
+/fonts/type1/public/cm-super/sfss0800.pfb></usr/local/texlive/2024/texmf-dist/f
+onts/type1/public/cm-super/sfss0900.pfb></usr/local/texlive/2024/texmf-dist/fon
+ts/type1/public/cm-super/sfss1000.pfb></usr/local/texlive/2024/texmf-dist/fonts
+/type1/public/cm-super/sfss1095.pfb></usr/local/texlive/2024/texmf-dist/fonts/t
+ype1/public/cm-super/sfss1440.pfb></usr/local/texlive/2024/texmf-dist/fonts/typ
+e1/public/cm-super/sfss3583.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1
+/public/cm-super/sfsx1000.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/p
+ublic/cm-super/sfsx1095.pfb>
+Output written on cv.pdf (2 pages, 182588 bytes).
 PDF statistics:
- 205 PDF objects out of 1000 (max. 8388607)
- 169 compressed objects within 2 object streams
- 36 named destinations out of 1000 (max. 500000)
- 49253 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 154 PDF objects out of 1000 (max. 8388607)
+ 120 compressed objects within 2 object streams
+ 21 named destinations out of 1000 (max. 500000)
+ 49213 words of extra memory for PDF output out of 51595 (max. 10000000)
 
