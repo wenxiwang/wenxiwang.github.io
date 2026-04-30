@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.16)  28 APR 2026 11:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.16)  30 APR 2026 15:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1254,13 +1254,13 @@ Package rerunfilecheck Info: File `cv.out' has not changed.
 (rerunfilecheck)             Checksum: 89035081753D94798F9A38F07EAAAC5A;1617.
  ) 
 Here is how much of TeX's memory you used:
- 32978 strings out of 473579
- 626560 string characters out of 5728233
- 1049520 words of memory out of 5000000
- 55053 multiletter control sequences out of 15000+600000
- 587736 words of font info for 161 fonts, out of 8000000 for 9000
+ 32986 strings out of 473579
+ 626645 string characters out of 5728233
+ 1049552 words of memory out of 5000000
+ 55054 multiletter control sequences out of 15000+600000
+ 588059 words of font info for 164 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 93i,14n,120p,999b,658s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 93i,14n,120p,999b,656s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/fontawesome5/FontAweso
 me5Free-Regular.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/font
 awesome5/FontAwesome5Free-Solid.pfb></usr/local/texlive/2024/texmf-dist/fonts/t
@@ -1275,10 +1275,10 @@ cm-super/sfss1095.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm
 uper/sfss3583.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-sup
 er/sfsx1000.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super
 /sfsx1095.pfb>
-Output written on cv.pdf (5 pages, 197429 bytes).
+Output written on cv.pdf (5 pages, 197662 bytes).
 PDF statistics:
- 228 PDF objects out of 1000 (max. 8388607)
- 191 compressed objects within 2 object streams
- 43 named destinations out of 1000 (max. 500000)
+ 229 PDF objects out of 1000 (max. 8388607)
+ 192 compressed objects within 2 object streams
+ 44 named destinations out of 1000 (max. 500000)
  49277 words of extra memory for PDF output out of 51595 (max. 10000000)
 
