@@ -1,0 +1,1066 @@
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+<meta content="Upsorn Praphamontripong, Wenxi Wang" name="author"/>
+<meta content="CS 3250 - Software Testing" name="description"/>
+<meta content="CS 3250, Upsorn, Praphamontripong, Software Testing" name="keywords"/>
+<link href="https://www.cs.virginia.edu/~up3f/cs3250/images/st-icon.png" rel="icon" type="image/png"/>
+<title>Software Testing - Section 2 Schedule</title>
+<link href="https://www.w3schools.com/w3css/4/w3.css" rel="stylesheet"/>
+<link href="styles/bootstrap.min.css" rel="stylesheet"/>
+<link href="styles/swtesting-style.css" rel="stylesheet">
+<link href="styles/schedule-style.css" rel="stylesheet"/>
+<script src="js/angular.min.js"></script>
+<script src="js/angular-route.js"></script>
+<style>
+      .line-strikethrough {
+         display: inline;
+         background-image: linear-gradient(transparent 0.8ex, crimson 0.8ex, crimson 1ex, transparent 1.3ex);
+      }   
+      .container-fluid {
+         padding-left: 32px;
+         padding-right: 32px; 
+      } 
+      .not_tested_section {   
+         background-color: WhiteSmoke;      
+         border-radius: 4px;
+         border: 1px solid gray;    
+      } 
+      img { 
+         border-radius: 6px;
+         box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.19);  
+         margin-top: auto;
+         margin-bottom: auto;
+         margin-right: auto;
+         margin-left: auto; 
+         vertical-align: middle;
+         border: 1px solid #ddd;
+         /* padding: 1px; */   
+      }
+      .model_solution { 
+         border-radius: 6px;          
+         border: 0px solid #ddd;
+         padding: 4px;   
+         line-height:1em;
+         background-color: ivory; /* linen; */ /* lavenderblush; */ 
+      }
+      img.update, img.new { 
+         box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2), 0 0 0 0 rgba(0, 0, 0, 0.19);         
+         margin-top: 0px; 
+         margin-bottom: 0px;
+         margin-right: 0px;
+         margin-left: 0px;        
+         border: 0px solid #ddd;
+      }
+      .guest-speaker {    
+         padding: 4px 16px 4px 16px; 
+      }
+      img.speaker { 
+         border-radius: 6px;
+         box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.19);  
+         margin-top: auto;
+         margin-bottom: auto;
+         margin-right: auto;
+         margin-left: auto; 
+         vertical-align: middle;
+         border: 1px solid #ddd;   
+      }      
+      .drawing:hover {
+         /* transform-origin: 100% 50%; */
+         transform-origin: -20% -10%;         
+         transition: width 2s, height 2s, transform 1s;
+         transform: scale(240%);         
+      }    
+      .drawing { 
+         max-width: 100%;
+         border: 1px solid #ddd;
+         border-radius: 4px;
+         padding: 5px;    
+         box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.19);
+         /* transform: scale(0.8); */
+         /* transition: 0.3s; */
+         display:inline-block;
+      } 
+      @media only screen and (max-width: 720px) {
+        speaker-container { display: inline-block; }                   
+      }   
+      table { table-layout: auto; }
+      /* #tdd_week { display: block; } */
+    
+      .section2-schedule-note {
+        margin: 10px 0 12px 0;
+        padding: 8px 12px;
+        background-color: #f7f7f7;
+        border-left: 4px solid #777;
+        border-radius: 4px;
+      }
+      .section2-source-label {
+        font-size: 0.82em;
+        font-style: italic;
+        color: dimgray;
+        margin-bottom: 4px;
+      }
+      .section2-divider {
+        border-top: 1px dashed #bbb;
+        margin: 10px 0;
+      }
+      .section2-cell-sep {
+        border-top: 1px dotted #ccc;
+        margin: 6px 0;
+      }
+      .deadline-row {
+        background-color: #fff8e7;
+      }
+      .deadline-row td {
+        vertical-align: middle;
+      }
+      .deadline-label {
+        font-weight: bold;
+        color: #6f4e00;
+      }
+      .deadline-date {
+        font-weight: bold;
+      }
+    </style>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<script>
+    // <!-- (A little window)
+      var hWnd;
+      function newWindow(url)
+      {
+        hWnd = window.open (url,"HelpWindow","width=410,height=180,resizable=yes,scrollbars=yes");
+      }
+      function killWindow()
+      {
+        /* window.close (); */
+        hWnd.window.close();
+      }
+
+      // (A bigger window)
+      var bWnd;
+      function newBigWindow(url)
+      {
+    	 bWnd = window.open (url,"HelpWindow","width=1280,height=960,resizable=yes,scrollbars=yes");
+      }
+      // -->
+    </script>
+</link></head>
+<body>
+<div class="overlay">
+<span id="top"></span>
+
+<div class="container-fluid">
+<h1>CS3250 Software Testing </h1>
+<h2>
+    Please find our course syllabus and policies 
+    <a href="https://www.cs.virginia.edu/~up3f/cs3250/" target="_blank">here</a>
+</h2>
+<h2>Fall 2026 — Schedule (Section 2)</h2>
+<font color="crimson"><i><b>Tentative class schedule (may be updated without prior notice)</b></i></font>
+<br/>
+<font color="crimson"><i><b>All times on this page are in U.S. Eastern Time</b></i></font><div class="section2-schedule-note"><b>Section 2 meets Tuesdays and Thursdays.</b> Lecture content is adapted from Section 1. Assignment due dates remain unchanged; POTD due dates are adjusted to follow the corresponding Section 2 lecture. All listed assignment and POTD deadlines are at 1:00pm U.S. Eastern Time.</div>
+<div class="row">
+<div class="col-md-12" style="margin-top:10px; margin-bottom:10px; padding-left:10px; padding-right:10px;">
+          Note:
+          <i>AO-Ch x</i> means chapter <i>x</i> in Ammann and Offutt text book
+          <br/>
+<i>K-Ch x</i> means chapter <i>x</i> in <span class="clickable btn"><a class="offsite" href="https://www.safaribooksonline.com/library/view/test-driven-practical/9781932394856/" target="_blank">Koskela's Test Driven</a></span>
+<font color="darkgreen" size="-1"><i>(This is recommended reading. You don't have to buy the book. Free trial available.)</i></font>
+<span style="float:right; font-style:italic">
+<!-- <span class="clickable btn"><a href="how-are-you-feeling-qrcode.html" title="click top open 'How are you feeling?' page" target="_blank">How are you feeling?</a></span> -->
+</span>
+</div>
+</div>
+<table class="w3-table w3-bordered w3-card-4 center" style="width:99%;">
+<thead>
+<tr bgcolor="black">
+<th scope="col" style="color:white; padding-top:6px; padding-bottom:6px;">Meet</th>
+<th scope="col" style="text-align:center; color:white; padding-top:6px; padding-bottom:6px;">Date</th>
+<th scope="col" style="color:white; padding-top:6px; padding-bottom:6px;" width="26%">Topics and Handouts</th>
+<th scope="col" style="color:white; padding-top:6px; padding-bottom:6px;" width="14%">Readings</th>
+<th scope="col" style="color:white; padding-top:6px; padding-bottom:6px;" width="18%">Assignments<!--  / Showcase --></th>
+<th scope="col" style="color:white; padding-top:6px; padding-bottom:6px;" width="15%">Quizzes</th>
+<th scope="col" style="color:white; padding-top:6px; padding-bottom:6px;" width="25%">Activities / POTDs</th>
+</tr>
+</thead>
+<!-- ******************************************************* -->
+<!-- week 1 ******************************************************* -->
+<!-- week 2 ******************************************************* -->
+<!-- ******************************************************* -->
+<!-- ******************************************************* -->
+<!-- ******************************************************* -->
+<!-- week 3 ******************************************************* -->
+<!-- ******************************************************* -->
+<!-- ******************************************************* -->
+<!-- week 4 ******************************************************* -->
+<!-- week 5 ******************************************************* -->
+<!-- ******************************************************* -->
+<!-- ******************************************************* -->
+<!-- week 6 ******************************************************* -->
+<!-- ******************************************************* -->
+<!-- ******************************************************* -->
+<!-- week 7 ******************************************************* -->
+<!-- week 8 ******************************************************* -->
+<!-- ******************************************************* -->
+<!-- week 9 ******************************************************* -->
+<!-- week 10 ******************************************************* -->
+<!-- ******************************************************* -->
+<!-- week 11 ******************************************************* -->
+<!-- week 12 ******************************************************* -->
+<!-- ******************************************************* -->
+<!-- ******************************************************* -->
+<!-- week 13 ******************************************************* -->
+<!-- ******************************************************* -->
+<!-- ******************************************************* -->
+<!-- ******************************************************* -->
+<!-- week 14 ******************************************************* -->
+<!-- ******************************************************* -->
+<!-- week 15 ******************************************************* -->
+<!-- ******************************************************* -->
+<!-- ******************************************************* -->
+<!-- week 16 ******************************************************* -->
+<!-- week 17 ******************************************************* -->
+<!-- Courses end: December 8, 2026
+     Exzam period: December 10, 2026 - December 18, 2026
+     https://registrar.virginia.edu/exam-schedule-fall-2026
+     3250 exam: Tuesday, December 15, 2026	9:00AM-12:00PM
+ -->
+<tr class="day" style="background-color:DimGray; color:white; font-weight:bold"><td class="inset-text" colspan="7">Course overview and intro to software testing</td></tr><tr class="day"><td class="w3-center">1</td><td class="w3-center">Tue 08/25</td><td><div class="section2-merged-topic"><span class="clickable btn" style="white-space: normal"><a href="slides/3250meet01A-CourseOverview.pdf">Get Familiar with Our Course</a>,</span>
+<br/><span class="clickable btn" style="white-space: normal"><a href="slides/3250meet01B-Responsibilities.pdf">Let's Set Expectation</a></span>
+<p style="font-style:italic; line-height:1em">
+<font color="darkgreen" size="-1">
+              A bit about this course and  
+              how we shall work together              
+            </font>
+</p>
+</div></td><td> </td><td> </td><td> </td><td>DIY: complete the <a class="offsite" href="https://forms.office.com/r/wCCCtQveZD" target="_blank">Let's start</a> form
+            <br/>
+<a class="offsite" href="https://forms.office.com/r/wCCCtQveZD" target="_blank">
+<img src="images/barcode/cs3250-start-qr-code.png" title="open 3250-F26 let's start form" width="100px"/>
+</a>
+<p style="font-style:italic; line-height:1em">
+<font color="darkgreen" size="-1">(please complete it by 4-Sep-2026, 1:00pm)</font>
+</p>
+<!-- ice breaker (15 minutes) -->
+            Activity: <span class="clickable btn" style="white-space: normal"><a href="inclass/activity-get-to-know-you.html">Get to know you</a></span>
+<p style="font-style:italic; line-height:1em">
+<font color="darkgreen" size="-1">(no submission)</font>
+</p>            
+                                   
+            Activity: <span class="clickable btn" style="white-space: normal"><a href="inclass/activity-checkin.html">Check-in</a></span>
+<p style="font-style:italic; line-height:1em">
+<font color="darkgreen" size="-1">(no submission)</font>
+</p>
+</td></tr><tr class="noclass day" style="color: dimgray"><td class="w3-center"> </td><td class="w3-center inset-text">Thu 08/27</td><td class="inset-text" colspan="5">No class — instructor traveling</td></tr><tr class="alt-day day"><td class="w3-center">2</td><td class="w3-center">Tue 09/01</td><td><div class="section2-merged-topic"><span class="clickable btn" style="white-space: normal"><!-- <a href="slides/3250meet02-why-test.pdf"> -->Why Test?</span>
+<p style="font-style:italic; line-height:1em">
+<font color="darkgreen" size="-1">
+              Who cares? So what?              
+            </font>
+</p>
+</div><div class="section2-divider"></div><div class="section2-merged-topic"><div class="section2-source-label">Part 1</div><span class="clickable btn" style="white-space: normal"><!-- <a href="slides/3250meet03-Intro-SWTesting.pdf"> -->Intro to Software Testing</span>
+<p style="font-style:italic; line-height:1em">
+<font color="darkgreen" size="-1">
+              What is Software Testing?
+              What are differences between testing and debugging?
+              What are some testing categories?  
+              How mature is your testing?              
+            </font>
+</p>
+</div></td><td><div class="section2-cell-stack">AO-Ch1
+            <br/>
+<span class="clickable btn" style="white-space: normal"><a class="offsite" href="https://www.boredpanda.com/funny-computer-errors-software-glitches/" target="_blank" title="check out some funny-computer-errors-software-glitches">Some examples of why</a></span>
+<br/>
+<span class="clickable btn" style="white-space: normal"><a class="offsite" href="https://cwe.mitre.org/top25/" target="_blank" title="check out CWE Top 25 Most Dangerous Software Weaknesses">CWE Top 25 Most Dangerous Software Weaknesses</a></span>
+<div class="section2-cell-sep"></div>AO-Ch1, <br/>
+            AO-Ch2.1
+        </div></td><td> </td><td> </td><td> </td></tr><tr class="day" style="background-color:DimGray; color:white; font-weight:bold"><td class="inset-text" colspan="7">Test automation and test framework</td></tr><tr class="noclass day">
+<td colspan="7" style="font-style:italic; line-height:1em; background:white; padding:16px 12px 6px 24px">
+            DIY: Set up test environment (JUnit)
+            <p style="line-height:1em">
+<font color="darkgreen" size="-1" style="font-style:italic">
+            Please try to set up the test environment (JUnit) <b>before</b> class. 
+            The class discussion will be more effective and enjoyable 
+            if your environment is readily available. </font>
+</p>
+<span class="clickable btn" style="white-space: normal">
+<a class="offsite" href="https://junit.org/junit5/" target="_blank" title="click to open JUnit 5 official website">https://junit.org/junit5/</a>
+</span>
+<p style="font-style:italic; line-height:1em;">
+<font size="-1">
+            You are recommended to use 
+            <span class="clickable btn" style="white-space: normal">
+<a class="offsite" href="https://www.eclipse.org" target="_blank" title="click to open Eclipse official website">Eclipse</a></span>; 
+            JUnit 5 comes with it.   
+            (Note: You may use any Java IDE or command line, and set up / set class path JUnit)
+            </font>
+</p>
+<p style="font-style:italic; line-height:0.98em">
+<font size="-1">
+            There are a number of good tutorials on how to set up (or use) JUnit 5, such as
+            <span class="clickable btn" style="white-space: normal"><a class="offsite" href="https://blog.codefx.org/libraries/junit-5-setup/" target="_blank">https://blog.codefx.org/libraries/junit-5-setup/</a></span> and
+            <span class="clickable btn" style="white-space: normal"><a class="offsite" href="https://www.eclipse.org/community/eclipse_newsletter/2017/october/article5.php" target="_blank">https://www.eclipse.org/community/</a></span>
+</font>
+</p>
+<p style="font-style:italic; line-height:1em">
+<font size="-1">
+            If you do not already have Java on your machine, download and install it.  
+            JUnit 5 requires Java 8 or higher.
+            </font>
+</p>
+</td>
+</tr><tr class="day"><td class="w3-center">3</td><td class="w3-center">Thu 09/03</td><td><div class="section2-merged-topic"><div class="section2-source-label">Part 2 (continued)</div><span class="clickable btn" style="white-space: normal"><!-- <a href="slides/3250meet03-Intro-SWTesting.pdf"> -->Intro to Software Testing</span>
+<p style="font-style:italic; line-height:1em">
+<font color="darkgreen" size="-1">
+              What is Software Testing?
+              What are differences between testing and debugging?
+              What are some testing categories?  
+              How mature is your testing?              
+            </font>
+</p>
+</div><div class="section2-divider"></div><div class="section2-merged-topic"><span class="clickable btn" style="white-space: normal"><!-- <a href="slides/3250meet06-TestAutomation.pdf"> -->Test Automation</span>
+<ul>
+<li>Designing for testability</li>
+<li>Test code quality</li>
+</ul>
+<p class="spaceafter" style="font-style:italic; line-height:1em">
+<font color="darkgreen" size="-1">
+            How do we test software automatically? 
+            What makes test automation hard?
+            What are characteristics of good tests?  
+            </font>
+</p>
+</div></td><td><div class="section2-cell-stack">AO-Ch1, <br/>
+            AO-Ch2.1
+        <div class="section2-cell-sep"></div>AO-Ch3
+            <p>
+<span class="clickable btn" style="white-space: normal">
+<a class="offsite" href="https://medium.com/scopedev/how-can-we-peacefully-co-exist-with-flaky-tests-3c8f94fba166" target="_blank">Flaky tests</a>
+</span>
+</p>
+<span class="clickable btn" style="white-space: normal">
+<a href="https://www.albany.edu/faculty/offutt/research/papers/BaralOffutt-ICST2020.pdf#:~:text=Some%20lead%20to%20false,several%20human%2Dbased%20studies" target="_blank">An Empirical Analysis of Blind Tests</a>
+</span>
+<p style="font-style:italic; line-height:1em">
+<font color="darkgreen" size="-1">(recommended reading)</font>
+</p>
+</div></td><td> </td><td> </td><td> </td></tr><tr class="alt-day day"><td class="w3-center">4</td><td class="w3-center">Tue 09/08<br/><span class="clickable btn adw-deadline" style="text-align: center; box-shadow: 2px 2px 2px gray; white-space: normal; background-color:peachpuff; padding:0px 4px 0px 4px"><a class="offsite" href="https://registrar.virginia.edu/enrollment-information/fall-enrollment-2026#add_drop_withdrawal" target="_blank">Add deadline 09/08</a></span></td><td><div class="section2-merged-topic"><span class="clickable btn" style="white-space: normal"><!-- <a href="slides/3250meet07-08-JUnit.pdf"> -->JUnit</span> <!-- Test Automation Framework -->
+<p style="font-style:italic; line-height:1em">
+<font color="darkgreen" size="-1">
+            One of the most commonly used test automation frameworks for Java
+            </font>
+</p>
+</div><div class="section2-divider"></div><div class="section2-merged-topic"><div class="section2-source-label">Part 1</div><span class="clickable btn" style="white-space: normal"><!-- <a href="slides/3250meet07-08-JUnit.pdf"> -->JUnit</span>
+<p style="font-style:italic; line-height:1em">
+<font color="darkgreen" size="-1">
+            Let's explore more JUnit features
+            </font>
+</p>
+</div></td><td><div class="section2-cell-stack"><span class="clickable btn" style="white-space: normal"><a class="offsite" href="https://junit.org/junit5/docs/current/user-guide/" target="_blank" title="open JUnit 5 user guide">JUnit 5 user guide</a></span>
+<div class="section2-cell-sep"></div>AO-Ch3</div></td><td> </td><td> </td><td> </td></tr><tr class="noclass day">
+<td colspan="7" style="font-style:italic; line-height:1em; background:white; padding:16px 12px 6px 24px">        
+            DIY: Set up test environment (Selenium)
+            <p style="font-style:italic; line-height:1em">
+<font color="darkgreen" size="-1">            
+            Please try to set up the test environment (Selenium) <b>before</b> class.                                        
+            Class discussion will be more effective and enjoyable 
+            if your environment is readily available. </font>
+</p>
+<span class="clickable btn" style="white-space: normal">
+<a class="offsite" href="https://www.selenium.dev/" target="_blank" title="click to open Selenium official website">https://www.selenium.dev/</a>
+</span>
+<p style="font-style:italic; line-height:1em">
+<font size="-1">
+            There are a number of good tutorials on how to set up and use Selenium. 
+            </font>
+</p>
+<p class="spacebefore">
+<font size="-1">
+            You may follow             
+            </font>
+<span class="clickable btn" style="white-space: normal"><a href="supplement/get-started-with-selenium.html" title="open Get started with Selenium to set up Selenium test environment for Java">Get started with Selenium</a></span>
+<font size="-1">                        
+            to set up your test environment.
+            </font>
+</p>
+<p style="font-style:italic; line-height:1em">
+<font color="darkgreen" size="-1">
+<i>How do you know if your test environment works?</i>
+<br/>
+            Try running the provided test template. 
+            You should see a web browser open and close. The test should pass.   
+            </font>
+</p>
+<ul>
+<li>
+<font size="-1">
+<span class="clickable btn" style="white-space: normal"><a href="examples/selenium/test/EmptyTemplateForChrome_Test.java">EmptyTemplateForChrome_Test.java</a></span> — if you use Chrome
+                  </font>
+</li>
+<li>
+<font size="-1">
+<span class="clickable btn" style="white-space: normal"><a href="examples/selenium/test/EmptyTemplateForFirefox_Test.java">EmptyTemplateForFirefox_Test.java</a></span> — if you use Firefox
+                  </font>
+</li>
+</ul>
+<p style="font-style:italic; line-height:1em">
+<font color="darkgreen" size="-1">
+              Note: the templates were created for Mac. 
+              For Windows users, please verify the paths to your browser driver and attach <tt>.exe</tt> to your drivers
+              </font>
+</p>
+<br/>
+<span class="clickable btn" style="white-space: normal"><a href="supplement/ChromeDriverInstallationwithSelenium.pdf" target="_blank" title="open Chrome Driver Installation with Selenium">Chrome driver installation with Selenium</a></span>
+<p style="font-style:italic; line-height:1em">
+<font color="darkgreen" size="-1">
+            Thanks to <b>Andrea Jerausek</b>, a CS 3250 TA, for creating the installation tutorial (for Windows)
+            </font>
+</p>
+<br/>
+<span class="clickable btn" style="white-space: normal"><a href="https://docs.google.com/document/d/1Eea5py8XAW4F_iGrv4C9Jd3voH26lLn-Mv6R7hOfpmg/edit?usp=sharing" target="_blank">JUnit/Selenium setup and troubleshooting</a></span>
+<p style="font-style:italic; line-height:1em">
+<font color="darkgreen" size="-1">
+            Thanks to all the CS 3250 teaching teams for sharing their experience.
+            Special thanks to <b>Jonah Kim</b> for creating detailed instructions on the installation. 
+            </font>
+</p>
+<p style="font-style:italic; line-height:1em">
+<font size="-1">
+            If you are familiar with Gradle, Maven, Ant, or 
+            any dependency management tools/frameworks, 
+            and prefer to use them to set up your Selenium, 
+            please feel free to use them instead of manually setting up Selenium. 
+            We choose not to introduce them in class to minimize additional
+            tools/frameworks/software that you need to deal with. 
+            </font>
+</p>
+</td>
+</tr><tr class="day"><td class="w3-center">5</td><td class="w3-center">Thu 09/10</td><td><div class="section2-merged-topic"><div class="section2-source-label">Part 2 (continued)</div><span class="clickable btn" style="white-space: normal"><!-- <a href="slides/3250meet07-08-JUnit.pdf"> -->JUnit</span>
+<p style="font-style:italic; line-height:1em">
+<font color="darkgreen" size="-1">
+            Let's explore more JUnit features
+            </font>
+</p>
+</div><div class="section2-divider"></div><div class="section2-merged-topic"><!-- <span class="clickable btn" style="white-space: normal"> -->Selenium
+<p style="font-style:italic; line-height:1em">
+<font color="darkgreen" size="-1"> 
+            One of the most commonly used test automation frameworks for web apps 
+            </font>
+</p>
+</div></td><td><div class="section2-cell-stack">AO-Ch3<div class="section2-cell-sep"></div><span class="clickable btn" style="white-space: normal"><a class="offsite" href="https://www.selenium.dev/documentation/" target="_blank" title="open Selenium documentation">Selenium documentation</a></span>
+</div></td><td> </td><td> </td><td> </td></tr><tr class="day" style="background-color:DimGray; color:white; font-weight:bold"><td class="inset-text" colspan="7">Test design, generation, execution, evaluation and analysis, and improvement</td></tr><tr class="alt-day day"><td class="w3-center">6</td><td class="w3-center">Tue 09/15</td><td><div class="section2-merged-topic"><!-- <span class="clickable btn" style="white-space: normal"> -->Selenium
+<p style="font-style:italic; line-height:1em">
+<font color="darkgreen" size="-1"> 
+            Let's explore more Selenium features 
+            </font>
+</p>
+</div><div class="section2-divider"></div><div class="section2-merged-topic"><div class="section2-source-label">Part 1</div><span class="clickable btn" style="white-space: normal"><!-- <a href="slides/3250meet04-FaultsErrorsFailures.pdf"> -->Faults−Errors−Failures,
+            and RIPR model</span>
+<p style="font-style:italic; line-height:1em">
+<font color="darkgreen" size="-1">
+            What aspects must be analyzed when designing tests and
+            how do we analyze them? 
+            </font>
+</p>
+</div></td><td><div class="section2-cell-stack">AO-Ch1, <br/>
+            AO-Ch2.1
+        </div></td><td> </td><td> </td><td><!-- <span class="clickable btn highlight-3" style="white-space: normal"><a href="inclass/"> -->POTD 1: JUnit &amp; Selenium 
+            <br/><font color="black" style="font-style:italic">(Due 09/16, 1:00pm)</font>
+<p style="font-style:italic; line-height:0.98em">
+<font color="darkgreen" size="-1">
+            (require Java environment, JUnit, Selenium)            
+            </font>
+</p>
+</td></tr><tr class="day"><td class="w3-center">7</td><td class="w3-center">Thu 09/17</td><td><div class="section2-merged-topic"><div class="section2-source-label">Part 2 (continued)</div><span class="clickable btn" style="white-space: normal"><!-- <a href="slides/3250meet04-FaultsErrorsFailures.pdf"> -->Faults−Errors−Failures,
+            and RIPR model</span>
+<p style="font-style:italic; line-height:1em">
+<font color="darkgreen" size="-1">
+            What aspects must be analyzed when designing tests and
+            how do we analyze them? 
+            </font>
+</p>
+</div><div class="section2-divider"></div><div class="section2-merged-topic"><span class="clickable btn" style="white-space: normal"><!-- <a href="slides/3250meet05-mdtd.pdf"> -->Model Driven Test Design (MDTD)</span>
+<p style="font-style:italic; line-height:1em">
+<font color="darkgreen" size="-1">
+            How does testing fit in the software development process? 
+            What are testing activities?
+            How do we work at a higher level of abstraction, 
+            using mathematical structures to design tests?
+            </font>
+</p>
+</div></td><td><div class="section2-cell-stack">AO-Ch1, <br/>
+            AO-Ch2.1
+        <div class="section2-cell-sep"></div>AO-Ch2</div></td><td> </td><td> </td><td> </td></tr><tr class="deadline-row"><td class="w3-center"> </td><td class="w3-center deadline-date">Mon 09/21</td><td><span class="deadline-label">Assignment deadline</span></td><td> </td><td><!-- <span class="clickable btn highlight-4" style="white-space: normal"><a href="assigns/assign01.html"> -->Assignment 1: RIPR &amp; test automation 
+            <i>(due 09/21, 1:00pm)</i>
+</td><td> </td><td> </td></tr><tr class="alt-day day"><td class="w3-center">8</td><td class="w3-center">Tue 09/22</td><td><div class="section2-merged-topic"><span class="clickable btn" style="white-space: normal"><!-- <a href="slides/3250meet11-12-coverage-criteria.pdf"> -->Coverage-based Test Design</span>
+<p style="font-style:italic; line-height:1em">
+<font color="darkgreen" size="-1">
+            How do we know if we have tested enough?
+            Why coverage criteria?   
+            How should we design tests?
+            Why don't we need all possible tests?
+            How to design tests using coverage criteria?
+            </font>
+</p>
+</div><div class="section2-divider"></div><div class="section2-merged-topic"><div class="section2-source-label">Part 1</div>
+<span class="clickable btn" style="white-space: normal"><!-- <a href="slides/3250meet12-candy-testing.pdf"> -->Coverage-based Test Design in Action</span>
+<p style="font-style:italic; line-height:1em">
+<font color="darkgreen" size="-1">
+            Let's put the concept into action — 
+            invent our own coverage criterion,
+            derive tests to satisfy the criterion, 
+            execute and evaluate our tests,
+            and analyze the coverage level.           
+            </font>
+</p>
+</div></td><td><div class="section2-cell-stack">AO-Ch.5</div></td><td> </td><td> </td><td> </td></tr><tr class="day" style="background-color:LightSlateGray; color:GhostWhite; font-weight:bold"><td class="inset-text" colspan="7">Input Space Partitioning (ISP) Testing</td></tr><tr class="day"><td class="w3-center">9</td><td class="w3-center">Thu 09/24</td><td><div class="section2-merged-topic"><div class="section2-source-label">Part 2 (continued)</div>
+<span class="clickable btn" style="white-space: normal"><!-- <a href="slides/3250meet12-candy-testing.pdf"> -->Coverage-based Test Design in Action</span>
+<p style="font-style:italic; line-height:1em">
+<font color="darkgreen" size="-1">
+            Let's put the concept into action — 
+            invent our own coverage criterion,
+            derive tests to satisfy the criterion, 
+            execute and evaluate our tests,
+            and analyze the coverage level.           
+            </font>
+</p>
+</div><div class="section2-divider"></div><div class="section2-merged-topic"><span class="clickable btn" style="white-space: normal"><!-- <a href="slides/3250meet13-ISP.pdf" title="Designing tests without having program source code"> -->Input Space Partition (ISP) Testing</span>
+<p style="font-style:italic; line-height:1em">
+<font color="darkgreen" size="-1">
+            How do we design tests without having source code (of a program under test)? 
+            Is ISP black-box testing?
+            </font>
+</p>
+</div></td><td><div class="section2-cell-stack">AO-Ch.5<div class="section2-cell-sep"></div>AO-Ch6.1 
+            <p>
+<span class="clickable btn" style="white-space: normal"><a href="images/isp-funstuff01.html" title="click to open image 'Who said ISP can't be fun!'">Who said ISP can't be fun!!</a></span>
+</p>
+<span class="clickable btn" style="white-space: normal">
+<a href="resources/papers/ISP-IndustrialCaseStudy.pdf" target="_blank">
+            ISP–Industrial Study (Freddie Mac)</a>
+</span>
+<p style="font-style:italic; line-height:1em">
+<font color="darkgreen" size="-1">(This is an example of how 
+            the concepts have been applied to industry; recommended reading)
+            </font>
+</p>
+</div></td><td> </td><td><div class="section2-cell-stack"><span class="clickable btn" style="white-space: normal">
+<a href="quizzes/index.html#!/quiz01" title="Open quiz 1 guide">Quiz 1 guide</a></span>
+            (RIPR &amp; test automation)
+        </div></td><td> </td></tr><tr class="alt-day day"><td class="w3-center">10</td><td class="w3-center">Tue 09/29</td><td><div class="section2-merged-topic"><span class="clickable btn" style="white-space: normal"><!-- <a href="slides/3250meet14-ISPcriteria.pdf"> -->ISP: Coverage Criteria</span>
+<ul>
+<li>All Combination</li>
+<li>Each Choice</li>
+<li>Pair-Wise</li>
+<li>Base Choice</li>
+<li>Multiple Base Choice</li>
+</ul>
+<p style="font-style:italic; line-height:1em">
+<font color="darkgreen" size="-1">
+            Which ISP coverage criterion should we use? Why? 
+            How do we apply the criterion to derive tests?
+            How many tests do we need?  
+            </font>
+</p>
+</div><div class="section2-divider"></div><div class="section2-merged-topic"><div class="section2-source-label">Part 1</div>
+<span class="clickable btn" style="white-space: normal"><!-- <a href="slides/3250meet15-general-web-test.pdf"> -->General Ideas: Web App Testing</span>
+<p style="font-style:italic; line-height:1em">
+<font color="darkgreen" size="-1">
+            (Read on your own; we'll discuss if needed so that we have more time to work on the activity)
+            </font>
+</p> 
+            ISP: Apply to Web Apps
+            <p style="font-style:italic; line-height:1em">
+<font color="darkgreen" size="-1">            
+            Can we test web apps the same way we test traditional software?
+            How should we test?               
+            What are web-specific features that must be taken into account when designing tests?
+            Here is one way to test web apps systematically.   
+            </font>
+</p>
+</div></td><td><div class="section2-cell-stack">AO-Ch6.2, 6.3</div></td><td> </td><td> </td><td><!-- <span class="clickable btn  highlight-3" style="white-space: normal"><a href="inclass/"> -->POTD 2: ISP
+            <br/><font color="black" style="font-style:italic">(Due 09/30, 1:00pm)</font>
+</td></tr><tr class="day" style="background-color:LightSlateGray; color:GhostWhite; font-weight:bold"><td class="inset-text" colspan="7">Graph-based Testing</td></tr><tr class="day"><td class="w3-center">11</td><td class="w3-center">Thu 10/01</td><td><div class="section2-merged-topic"><div class="section2-source-label">Part 2 (continued)</div>
+<span class="clickable btn" style="white-space: normal"><!-- <a href="slides/3250meet15-general-web-test.pdf"> -->General Ideas: Web App Testing</span>
+<p style="font-style:italic; line-height:1em">
+<font color="darkgreen" size="-1">
+            (Read on your own; we'll discuss if needed so that we have more time to work on the activity)
+            </font>
+</p> 
+            ISP: Apply to Web Apps
+            <p style="font-style:italic; line-height:1em">
+<font color="darkgreen" size="-1">            
+            Can we test web apps the same way we test traditional software?
+            How should we test?               
+            What are web-specific features that must be taken into account when designing tests?
+            Here is one way to test web apps systematically.   
+            </font>
+</p>
+</div><div class="section2-divider"></div><div class="section2-merged-topic"><span class="clickable btn" style="white-space: normal"><!-- <a href="slides/3250meet16-graph.pdf"> -->Graph-based Testing</span>
+<br/>
+            Graph: <span class="clickable btn" style="white-space: normal"><!-- <a href="slides/3250meet16-17-graph-coverage.pdf"> -->Structural Coverage Criteria</span>
+<ul>
+<li>Node</li>
+<li>Edge</li>
+<li>Edge-Pair</li>
+</ul>
+<p style="font-style:italic; line-height:1em">
+<font color="darkgreen" size="-1">
+            One of the most commonly used coverage criteria  
+            </font>
+</p>
+</div></td><td><div class="section2-cell-stack">AO-Ch7.1 <br/>AO-Ch7.2</div></td><td> </td><td> </td><td><!-- <span class="clickable btn  highlight-3" style="white-space: normal"><a href="inclass/"> -->POTD 3: Structural graph coverage
+            <br/><font color="black" style="font-style:italic">(Due 10/02, 1:00pm)</font>
+</td></tr><tr class="noclass day" style="color: dimgray"><td class="w3-center"> </td><td class="w3-center inset-text">Tue 10/06</td><td class="inset-text" colspan="5">Fall reading days, no class (refer to <a class="offsite" href="https://registrar.virginia.edu/calendar/academic/2026-2027" target="_blank">UVA Academic Calendar</a>)</td></tr><tr class="deadline-row"><td class="w3-center"> </td><td class="w3-center deadline-date">Wed 10/07</td><td><span class="deadline-label">Assignment deadline</span></td><td> </td><td><!-- <img src="images/new-onstar.gif" width=24 class="new"> -->
+<!-- <span class="clickable btn highlight-4"><a href="assigns/assign02.html"> -->Assignment 2: ISP &amp; test automation 
+            <i>(due 10/07, 1:00pm)</i>
+<br/>
+<p style="font-style:italic; line-height:1em">
+<font color="darkgreen" size="-1">            
+            (Note: This assignment may be <b>time-consuming</b>.  
+            Please <b>plan and manage your time properly</b>)
+            </font>
+</p>
+</td><td> </td><td> </td></tr><tr class="alt-day day"><td class="w3-center">12</td><td class="w3-center">Thu 10/08</td><td><div class="section2-merged-topic">Graph: <span class="clickable btn" style="white-space: normal"><!-- <a href="slides/3250meet16-17-graph-coverage.pdf"> -->Structural Coverage Criteria</span>
+<ul>
+<!-- <li>Edge-Pair</li> -->
+<li>Complete Path</li>
+<li>Prime Path</li>
+</ul>
+<p style="font-style:italic; line-height:1em">
+<font color="darkgreen" size="-1">            
+            How should we handle loops in graphs?
+            Execute loop once, 0 time, many times?    
+            </font>
+</p>
+</div><div class="section2-divider"></div><div class="section2-merged-topic">
+<span class="clickable btn" style="white-space: normal"><!-- <a href="slides/3250meet18-structural-graph-source.pdf"> -->Control Flow Graph for source code</span>
+<p style="font-style:italic; line-height:1em">
+<font color="darkgreen" size="-1">            
+            How do we create graph representation of the software under test?              
+            </font>
+</p>
+<span class="clickable btn" style="white-space: normal"><!-- <a href="slides/561meet20-bad-cfg.pdf"> -->Examples: Improper CFGs</span>
+<p style="font-style:italic; line-height:1em">
+<font color="darkgreen" size="-1">            
+            Here are examples of improper/incorrect CFGs for program source code;
+            these improperly/incorrectly constructed CFGs will <b>*not*</b>  
+            receive credit for the quiz, homework, and the final exam.    
+            <!-- for the learning portfolio. -->
+</font>
+</p>
+</div></td><td><div class="section2-cell-stack">AO-Ch7.2<div class="section2-cell-sep"></div>AO-Ch7.3.1</div></td><td> </td><td><div class="section2-cell-stack"><span class="clickable btn" style="white-space: normal"><a href="quizzes/index.html#!/quiz02" title="Open quiz 2 guide">Quiz 2 guide</a></span> (Coverage-based test design &amp; ISP)                        
+        </div></td><td> </td></tr><tr class="day"><td class="w3-center">13</td><td class="w3-center">Tue 10/13<br/><span class="clickable btn adw-deadline" style="text-align: center; box-shadow: 2px 2px 2px gray; white-space: normal; background-color:peachpuff; padding:0px 4px 0px 4px"><a class="offsite" href="https://registrar.virginia.edu/enrollment-information/fall-enrollment-2026#add_drop_withdrawal" target="_blank">Drop deadline 10/13</a></span></td><td><div class="section2-merged-topic">Structural Graph Coverage: <span class="clickable btn" style="white-space: normal"><!-- <a href="slides/3250meet18-structural-graph-source.pdf"> -->Apply to Source Code</span>
+<p style="font-style:italic; line-height:1em">
+<font color="darkgreen" size="-1">
+<!-- Let's put graph coverage criteria into action. -->     
+            Putting it all together and 
+            designing unit-level tests to satisfy structural graph coverage criteria. 
+            Let's derive test requirements, analyze test paths, 
+            and identify test cases corresponding to the execution flows of those paths.         
+            </font>
+</p>
+</div><div class="section2-divider"></div><div class="section2-merged-topic"><div class="section2-source-label">Part 1</div>Graph: <span class="clickable btn" style="white-space: normal"><!-- <a href="slides/3250meet19-graph-dataflow.pdf"> -->Data Flow Coverage Criteria</span>
+<ul>
+<li>All-Defs</li>
+<li>All-Uses</li>
+<li>All-DU-Paths</li>
+</ul>
+<p style="font-style:italic; line-height:1em">
+<font color="darkgreen" size="-1">            
+            One of the most important concepts for software analysis.              
+            How do we analyze data flow of a software artifact and 
+            integrate them into a graph model? 
+            How do we design tests to ensure that the program states / values are created and used correctly? 
+            </font>
+</p>
+</div></td><td><div class="section2-cell-stack">AO-Ch7.3.1<div class="section2-cell-sep"></div>AO-Ch7.2</div></td><td> </td><td> </td><td>
+<!-- <span class="clickable btn  highlight-3" style="white-space: normal"><a href="inclass/"> -->POTD 4: Graph for source        
+            <br/>
+<font color="black" style="font-style:italic">(Due 10/14, 1:00pm)</font>
+</td></tr><tr class="alt-day day"><td class="w3-center">14</td><td class="w3-center">Thu 10/15</td><td><div class="section2-merged-topic"><div class="section2-source-label">Part 2 (continued)</div>Graph: <span class="clickable btn" style="white-space: normal"><!-- <a href="slides/3250meet19-graph-dataflow.pdf"> -->Data Flow Coverage Criteria</span>
+<ul>
+<li>All-Defs</li>
+<li>All-Uses</li>
+<li>All-DU-Paths</li>
+</ul>
+<p style="font-style:italic; line-height:1em">
+<font color="darkgreen" size="-1">            
+            One of the most important concepts for software analysis.              
+            How do we analyze data flow of a software artifact and 
+            integrate them into a graph model? 
+            How do we design tests to ensure that the program states / values are created and used correctly? 
+            </font>
+</p>
+</div><div class="section2-divider"></div><div class="section2-merged-topic">Data flow Coverage: Apply to Source Code
+<p style="font-style:italic; line-height:1em">
+<font color="darkgreen" size="-1">                                     
+            Putting it all together and designing unit-level tests 
+            that satisfy data-flow coverage criteria. 
+            Let's derive def-clear du-paths (test requirements), 
+            analyze test paths, and 
+            identify test cases for those test paths 
+            to verify that the program states/values are created and used correctly.
+            </font>
+</p>
+</div></td><td><div class="section2-cell-stack">AO-Ch7.2<div class="section2-cell-sep"></div>AO-Ch7.3.2</div></td><td> </td><td> </td><td><!-- <span class="clickable btn  highlight-3" style="white-space: normal"><a href="inclass/"> -->POTD 5: Data flow for source 
+            <br/><font color="black" style="font-style:italic">(Due 10/16, 1:00pm)</font>
+</td></tr><tr class="deadline-row"><td class="w3-center"> </td><td class="w3-center deadline-date">Mon 10/19</td><td><span class="deadline-label">Assignment deadline</span></td><td> </td><td><!-- <span class="clickable btn highlight-4">
+            <a href="assigns/assign03.html"> -->Assignment 3: 
+            Structural graph coverage &amp; test automation
+            <i>(due 10/19, 1:00pm)</i>
+<p style="font-style:italic; line-height:1em">
+<font color="darkgreen" size="-1">            
+            (Note: This assignment may be <b>time-consuming</b>.  
+            Please <b>plan and manage your time properly</b>)
+            </font>
+</p>
+</td><td> </td><td> </td></tr><tr class="day" style="background-color:LightSlateGray; color:GhostWhite; font-weight:bold"><td class="inset-text" colspan="7">Logic-based Testing</td></tr><tr class="day"><td class="w3-center">15</td><td class="w3-center">Tue 10/20<br/><span class="clickable btn adw-deadline" style="text-align: center; box-shadow: 2px 2px 2px gray; white-space: normal; background-color:peachpuff; padding:0px 4px 0px 4px"><a class="offsite" href="https://registrar.virginia.edu/enrollment-information/fall-enrollment-2026#add_drop_withdrawal" target="_blank">Withdraw deadline 10/20</a></span></td><td><div class="section2-merged-topic">Graph Coverage for <span class="clickable btn" style="white-space: normal"><!-- <a href="slides/3250meet21-graph-design.pdf" title="click to open design elements slide"> -->Design Elements</span>
+<p style="font-style:italic; line-height:1em">
+<font color="darkgreen" size="-1">                          
+            Software usually consists of multiple components (or modules or subsystems) and 
+            there are data flow couplings between these components. 
+            How do we design tests beyond unit-level testing? 
+            </font>
+</p>
+</div><div class="section2-divider"></div><div class="section2-merged-topic"><div class="section2-source-label">Part 1</div><span class="clickable btn" style="white-space: normal"><!-- <a href="slides/3250meet23-24-logic.pdf"> -->Logic-based Testing</span>
+<br/> Logic: Coverage Criteria
+            <ul>
+<li>Predicate</li>
+<li>Clause</li>
+<li>Combinatorial</li>
+</ul>
+<p style="font-style:italic; line-height:1em">
+<font color="darkgreen" size="-1">
+            How should we design tests based on semantic of the logic expressions?  
+            Will tests designed for equivalent predicates always be the same?             
+            </font>
+</p>
+</div></td><td><div class="section2-cell-stack">AO-Ch7.4 <br/>
+            AO-Ch7.5
+        <div class="section2-cell-sep"></div>AO-Ch8.1</div></td><td> </td><td> </td><td> </td></tr><tr class="alt-day day"><td class="w3-center">16</td><td class="w3-center">Thu 10/22</td><td><div class="section2-merged-topic"><div class="section2-source-label">Part 2 (continued)</div><span class="clickable btn" style="white-space: normal"><!-- <a href="slides/3250meet23-24-logic.pdf"> -->Logic-based Testing</span>
+<br/> Logic: Coverage Criteria
+            <ul>
+<li>Predicate</li>
+<li>Clause</li>
+<li>Combinatorial</li>
+</ul>
+<p style="font-style:italic; line-height:1em">
+<font color="darkgreen" size="-1">
+            How should we design tests based on semantic of the logic expressions?  
+            Will tests designed for equivalent predicates always be the same?             
+            </font>
+</p>
+</div><div class="section2-divider"></div><div class="section2-merged-topic"><span class="clickable btn" style="white-space: normal"><!-- <a href="slides/3250meet23-24-logic.pdf"> -->Determination</span>
+<p style="font-style:italic; line-height:1em">
+<font color="darkgreen" size="-1">
+            A clause determines the value of its predicate when the other clauses  have certain values. 
+            How do we know what values the other clauses should have? 
+            Under which condition(s) will the clause determine the predicate?  
+            </font>
+</p>
+</div></td><td><div class="section2-cell-stack">AO-Ch8.1</div></td><td> </td><td><div class="section2-cell-stack"><span class="clickable btn" style="white-space: normal">
+<a href="quizzes/index.html#!/quiz03" title="Open quiz 3 guide">Quiz 3 guide</a></span>
+            (Graph: structural &amp; data flow)                                 
+        </div></td><td> </td></tr><tr class="deadline-row"><td class="w3-center"> </td><td class="w3-center deadline-date">Mon 10/26</td><td><span class="deadline-label">Assignment deadline</span></td><td> </td><td><!-- <span class="clickable btn highlight-4">
+            <a href="assigns/assign04.html"> -->Assignment 4: 
+            Data flow graph coverage &amp; test automation
+            <i>(due 10/26, 1:00pm)</i>
+<p style="font-style:italic; line-height:1em">
+<font color="darkgreen" size="-1">            
+            (Note: This assignment may be <b>time-consuming</b>.  
+            Please <b>plan and manage your time properly</b>)
+            </font>
+</p>
+</td><td> </td><td> </td></tr><tr class="day"><td class="w3-center">17</td><td class="w3-center">Tue 10/27</td><td><div class="section2-merged-topic">Logic: <span class="clickable btn" style="white-space: normal"><!-- <a href="slides/3250meet25-26-logic-acc.pdf"> -->Active Clause Coverage Criteria (ACC)</span>
+<ul>
+<li>GACC</li>
+<li>RACC</li>
+<li>CACC</li>
+</ul>
+<p style="font-style:italic; line-height:1em">
+<font color="darkgreen" size="-1">
+              When some aspects are supposed to impact the behavior of a software under test,             
+              how should we design tests to check if they actually do impact?
+            </font>
+</p>
+<p style="font-style:italic; line-height:1em">
+<font color="darkgreen" size="-1">                           
+              ACC – A form of "Modified Condition Decision Coverage" (MCDC), 
+              required by the US Federal Aviation Administration (FAA) 
+              for safety critical avionics software
+            </font>
+</p>
+</div><div class="section2-divider"></div><div class="section2-merged-topic"><div class="section2-source-label">Part 1</div>Logic: <span class="clickable btn" style="white-space: normal">
+<!-- <a href="slides/3250meet27-28-logic-source.pdf"> -->Apply to Source Code</span>
+<p style="font-style:italic; line-height:1em">
+<font color="darkgreen" size="-1">             
+            How do we identify test requirements according to logical expressions found in program source code? 
+            How should we derive tests to ensure proper evaluation of the expressions?            
+            How are reachability and controllability issues handled when 
+            applying logic coverage criteria?  
+            </font>
+</p>
+</div></td><td><div class="section2-cell-stack">AO-Ch8.1<div class="section2-cell-sep"></div>AO-Ch8.3</div></td><td> </td><td> </td><td><!-- <span class="clickable btn  highlight-3" style="white-space: normal"><a href="inclass/"> -->POTD 6: ACC
+            <br/>
+<font color="black" style="font-style:italic">(Due 10/28, 1:00pm)</font>
+</td></tr><tr class="alt-day day"><td class="w3-center">18</td><td class="w3-center">Thu 10/29</td><td><div class="section2-merged-topic"><div class="section2-source-label">Part 2 (continued)</div>Logic: <span class="clickable btn" style="white-space: normal">
+<!-- <a href="slides/3250meet27-28-logic-source.pdf"> -->Apply to Source Code</span>
+<p style="font-style:italic; line-height:1em">
+<font color="darkgreen" size="-1">             
+            How do we identify test requirements according to logical expressions found in program source code? 
+            How should we derive tests to ensure proper evaluation of the expressions?            
+            How are reachability and controllability issues handled when 
+            applying logic coverage criteria?  
+            </font>
+</p>
+</div><div class="section2-divider"></div><div class="section2-merged-topic">Logic: <span class="clickable btn" style="white-space: normal"><!-- <a href="slides/3250meet27-28-logic-source.pdf"> -->Apply to Source Code</span>
+<p style="font-style:italic; line-height:1em">
+<font color="darkgreen" size="-1">             
+            Can we reuse tests when a software is refactored (or gets evolved)?
+            How do we analyze? How much can we reuse? 
+            Some ideas toward regression testing.   
+            </font>
+</p>
+</div><div class="section2-divider"></div><div class="section2-merged-topic"><div class="section2-source-label">Additional practice (condensed)</div>Logic: <span class="clickable btn" style="white-space: normal">
+<!-- <a href="slides/3250meet27-28-logic-source.pdf"> -->Apply to Source Code</span>
+<p style="font-style:italic; line-height:1em">
+<font color="darkgreen" size="-1">             
+            More practice with logic-based testing for source code   
+            </font>
+</p>
+</div></td><td><div class="section2-cell-stack">AO-Ch8.3</div></td><td> </td><td> </td><td><!-- <span class="clickable btn  highlight-3" style="white-space: normal"><a href="inclass/">-->POTD 7: Logic for source
+            <br/><font color="black" style="font-style:italic">(Due 10/30, 1:00pm)</font>
+</td></tr><tr class="noclass day" style="color: dimgray"><td class="w3-center"> </td><td class="w3-center inset-text">Tue 11/03</td><td class="inset-text" colspan="5">No class</td></tr><tr class="day" style="background-color:LightSlateGray; color:GhostWhite; font-weight:bold"><td class="inset-text" colspan="7">Syntax-based Testing</td></tr><tr class="day"><td class="w3-center">19</td><td class="w3-center">Thu 11/05</td><td><div class="section2-merged-topic">Syntax-based testing: 
+            <ul>
+<li><span class="clickable btn" style="white-space: normal"><!-- <a href="slides/3250meet29-syntax-grammar.pdf"> -->Grammar-based mutation</span></li>
+</ul>
+<p style="font-style:italic; line-height:1em">
+<font color="darkgreen" size="-1">
+            How to design tests based on the syntax of the software artifacts.
+            How do we design valid and invalid test inputs using regular expressions and context free grammars?              
+            </font>
+</p>
+</div><div class="section2-divider"></div><div class="section2-merged-topic">
+            Syntax: <span class="clickable btn" style="white-space: normal"><!-- <a href="slides/3250meet29-syntax-grammar.pdf"> -->Apply to input space</span>
+<p style="font-style:italic; line-height:1em">
+<font color="darkgreen" size="-1">
+            Let's mutate the software artifact, 
+            apply grammar-based mutation testing to some simple real-world scenarios                               
+            </font>
+</p>
+</div></td><td><div class="section2-cell-stack">AO-Ch9.1</div></td><td> </td><td><div class="section2-cell-stack"><span class="clickable btn" style="white-space: normal">
+<a href="quizzes/index.html#!/quiz04" title="Open quiz 4 guide">Quiz 4 guide</a></span> (Logic)
+        </div></td><td> </td></tr><tr class="deadline-row"><td class="w3-center"> </td><td class="w3-center deadline-date">Mon 11/09</td><td><span class="deadline-label">Assignment deadline</span></td><td> </td><td><!-- <img src="images/new-onstar.gif" width=24 class="new"> -->
+<!-- <span class="clickable btn highlight-4" style="white-space: normal"><a href="assigns/assign05.html"> -->Assignment 5: Logic &amp; test automation
+            <i>(due 11/09, 1:00pm)</i>
+</td><td> </td><td> </td></tr><tr class="alt-day day"><td class="w3-center">20</td><td class="w3-center">Tue 11/10</td><td><div class="section2-merged-topic">Syntax-based testing: 
+            <ul>
+<li><span class="clickable btn" style="white-space: normal"><!-- <a href="slides/3250meet31-syntax-source.pdf"> -->Program-based mutation</span>
+</li>
+</ul>
+<p style="font-style:italic; line-height:1em">
+<font color="darkgreen" size="-1">
+            Why do we need variations of the software under tests? 
+            Why mimic developers' common mistakes or difficult to detect faults. 
+            How to mimic the mistakes and encourage common test heuristics. 
+            </font>
+</p>
+</div><div class="section2-divider"></div><div class="section2-merged-topic"><div class="section2-source-label">Part 1</div>Syntax: <span class="clickable btn" style="white-space: normal"><!-- <a href="slides/3250meet31-syntax-source.pdf"> -->Apply to Source Code</span>
+<p style="font-style:italic; line-height:1em">
+<font color="darkgreen" size="-1">
+            Though mutation testing is the strongest coverage criterion, 
+            it is very expensive.
+            What can we do to reduce the testing cost? 
+            How is it used in practice?
+            Let's mutate the software artifact to create effective test requirements   
+            </font>
+</p>
+</div></td><td><div class="section2-cell-stack">AO-Ch9.2, 9.3</div></td><td> </td><td> </td><td><!-- <span class="clickable btn  highlight-3" style="white-space: normal"><a href="inclass/"> -->POTD 8: Program mutation
+            <br/><font color="black" style="font-style:italic">(Due 11/11, 1:00pm)</font>
+</td></tr><tr class="day"><td class="w3-center">21</td><td class="w3-center">Thu 11/12</td><td><div class="section2-merged-topic"><div class="section2-source-label">Part 2 (continued)</div>Syntax: <span class="clickable btn" style="white-space: normal"><!-- <a href="slides/3250meet31-syntax-source.pdf"> -->Apply to Source Code</span>
+<p style="font-style:italic; line-height:1em">
+<font color="darkgreen" size="-1">
+            Though mutation testing is the strongest coverage criterion, 
+            it is very expensive.
+            What can we do to reduce the testing cost? 
+            How is it used in practice?
+            Let's mutate the software artifact to create effective test requirements   
+            </font>
+</p>
+</div><div class="section2-divider"></div><div class="section2-merged-topic">Syntax: <span class="clickable btn" style="white-space: normal"><!-- <a href="slides/3250meet31-syntax-source.pdf"> -->Apply to Source Code</span>
+<p style="font-style:italic; line-height:1em">
+<font color="darkgreen" size="-1">
+            More practice on mutation testing.                                                         
+            </font>
+</p>
+</div></td><td><div class="section2-cell-stack">AO-Ch9.2, 9.3</div></td><td> </td><td> </td><td><!-- <span class="clickable btn  highlight-3" style="white-space: normal"><a href="inclass/"> -->POTD 9: Program mutation 
+            <br/><font color="black" style="font-style:italic">(Due 11/13, 1:00pm)</font>
+</td></tr><tr class="day" style="background-color:LightSlateGray; color:GhostWhite; font-weight:bold"><td class="inset-text" colspan="7">Coverage-based test design wrap-up and other aspects in software testing</td></tr><tr class="alt-day day"><td class="w3-center">22</td><td class="w3-center">Tue 11/17</td><td><div class="section2-merged-topic">Putting it all together 
+            <p style="font-style:italic; line-height:1em">
+<font color="darkgreen" size="-1">
+            Which coverage criteria to use? How to decide? What to achieve? Pros and cons?                 
+            </font>
+</p>
+</div><div class="section2-divider"></div><div class="section2-merged-topic"><div class="section2-source-label">Part 1</div>Putting it all together 
+            <p style="font-style:italic; line-height:1em">
+<font color="darkgreen" size="-1">
+            More practice and analysis                 
+            </font>
+</p>
+</div></td><td> </td><td> </td><td> </td><td> </td></tr><tr class="day" style="background-color:DimGray; color:white; font-weight:bold"><td class="inset-text" colspan="7">Testing as central activity, TDD</td></tr><tr class="day"><td class="w3-center">23</td><td class="w3-center">Thu 11/19</td><td><div class="section2-merged-topic"><div class="section2-source-label">Part 2 (continued)</div>Putting it all together 
+            <p style="font-style:italic; line-height:1em">
+<font color="darkgreen" size="-1">
+            More practice and analysis                 
+            </font>
+</p>
+</div><div class="section2-divider"></div><div class="section2-merged-topic"><!-- <span class="clickable btn" style="white-space: normal"><a href="slides/3250meet35-ShiftingTestingLeft.pdf">Shift Testing Left</a></span>, -->
+<span class="clickable btn" style="white-space: normal"><!-- <a href="slides/3250meet35-36-TDD.pdf"> -->Test-Driven Development (TDD)</span>
+<br/>
+<p style="font-style:italic; line-height:1em">
+<font color="darkgreen" size="-1">
+            Users always change their mind and software continues to evolve. 
+            How do we use testing as central activity to embrace evolutionary design? 
+            How do we use test harnesses as guideline in software development?          
+            </font>
+</p>
+</div></td><td><div class="section2-cell-stack">AO-Ch4, <br/>
+            K-Ch1 to Ch4, <br/>
+<span class="clickable btn" style="white-space: normal">
+<a class="offsite" href="https://en.wikipedia.org/wiki/Test-driven_development" target="_blank">TDD (wikipedia)</a>
+</span>
+</div></td><td> </td><td><div class="section2-cell-stack"><span class="clickable btn" style="white-space: normal">
+<a href="quizzes/index.html#!/quiz05" title="Open quiz 5 guide">Quiz 5 guide</a></span>
+            (Syntax)
+        </div></td><td> </td></tr><tr class="deadline-row"><td class="w3-center"> </td><td class="w3-center deadline-date">Fri 11/20</td><td><span class="deadline-label">Assignment deadline</span></td><td> </td><td><!-- <img src="images/new-onstar.gif" width=24 class="new"> -->
+<!-- <span class="clickable btn highlight-4" style="white-space: normal"><a href="assigns/assign06.html"> -->Assignment 6: Syntax &amp; test automation
+            <i>(due 11/20, 1:00pm)</i>
+</td><td> </td><td> </td></tr><tr class="noclass day">
+<td colspan="7" style="font-style:italic; line-height:1em; background:white; padding:16px 12px 6px 24px">
+            DIY: Set up test environment
+            <p style="font-style:italic; line-height:1em">
+<font color="darkgreen" size="-1">            
+            Please try to set up the test environment <b>before</b> class. 
+            Please try to have your Selenium and web server            
+            working <b>before</b> next class.   
+            One free and easy set up web server that we will use in class 
+            is <a class="offisite" href="https://www.cs.virginia.edu/~up3f/cs4750/supplement/XAMPP-setup.html" target="_blank">XAMPP</a>. 
+            However, you may use any web server of your choice.
+            If you choose to use another web server of your choice — 
+            Please make sure that you know how to deploy and access your web resources).             
+            Class discussion will be more effective and enjoyable 
+            if your environment is readily available. </font>
+</p></td>
+</tr><tr class="alt-day day"><td class="w3-center">24</td><td class="w3-center">Tue 11/24</td><td><div class="section2-merged-topic"><span class="clickable btn" style="white-space: normal"><!-- <a href="slides/3250meet35-36-TDD.pdf"> -->TDD</span>
+<p style="font-style:italic; line-height:1em">
+<font color="darkgreen" size="-1">
+            More TDD practice. How do we use tests to guide the refactoring?  
+            We try to be productive with TDD, but when not to use TDD.
+            </font>
+</p>
+</div><div class="section2-divider"></div><div class="section2-merged-topic">TDD web app 
+            <p style="font-style:italic; line-height:1em">
+<font color="darkgreen" size="-1">
+            We have used TDD to build a standalone Java program. 
+            How do we use TDD to build a web app?  
+            </font>
+</p>
+</div></td><td><div class="section2-cell-stack">K-Ch1 to Ch4</div></td><td> </td><td> </td><td><!-- <span class="clickable btn  highlight-3" style="white-space: normal"><a href="inclass/"> -->POTD 10: TDD web app
+            <br/><font color="black" style="font-style:italic">(Due 11/25, 1:00pm)</font>
+<p style="font-style:italic; line-height:1em">
+<font color="darkgreen" size="-1">
+            (require: <b>Selenium</b>, <b>JUnit</b>, Java environment, <b>web server</b>)            
+            </font>
+</p>
+</td></tr><tr class="noclass day" style="color: dimgray"><td class="w3-center"> </td><td class="w3-center inset-text">Thu 11/26</td><td class="inset-text" colspan="5">Thanksgiving recess, no class (refer to <a class="offsite" href="https://registrar.virginia.edu/calendar/academic/2026-2027" target="_blank">UVA Academic Calendar</a>)</td></tr><tr class="day"><td class="w3-center">25</td><td class="w3-center">Tue 12/01</td><td><div class="section2-merged-topic"><div class="section2-source-label">Part 1</div><span class="clickable btn" style="white-space: normal"><!-- <a href="slides/3250meet38-TDD-test-double.pdf"> -->Test Doubles</span>
+<p style="font-style:italic; line-height:1em">
+<font color="darkgreen" size="-1">
+            What do we do if some parts of the software are unavailable 
+            but we need them to test another part?
+            Using stubs, fakes, and mocks to simplify testing. 
+            What to mock, when to mock, and when not to mock.              
+            </font>
+</p>
+</div></td><td> </td><td> </td><td> </td><td> </td></tr><tr class="day" style="background-color:DimGray; color:white; font-weight:bold"><td class="inset-text" colspan="7">Course wrap-up</td></tr><tr class="alt-day day"><td class="w3-center">26</td><td class="w3-center">Thu 12/03</td><td><div class="section2-merged-topic"><div class="section2-source-label">Part 2 (continued)</div><span class="clickable btn" style="white-space: normal"><!-- <a href="slides/3250meet38-TDD-test-double.pdf"> -->Test Doubles</span>
+<p style="font-style:italic; line-height:1em">
+<font color="darkgreen" size="-1">
+            What do we do if some parts of the software are unavailable 
+            but we need them to test another part?
+            Using stubs, fakes, and mocks to simplify testing. 
+            What to mock, when to mock, and when not to mock.              
+            </font>
+</p>
+</div><div class="section2-divider"></div><div class="section2-merged-topic"><span class="clickable btn" style="white-space: normal"><!-- <a href="slides/3250meet39-bypass-testing.pdf"> -->Bypass testing</span>
+<p style="font-style:italic; line-height:1em">
+<font color="darkgreen" size="-1">             
+            Although client-side and server-side input validations can be used as double safeguard
+            to prevent unacceptable users' entries, 
+            users can still bypass the validations.   
+            How should we design tests targeting the validations
+            and web-specific constraints?             
+            </font>
+</p>
+</div></td><td> </td><td> </td><td> </td><td> </td></tr><tr class="day"><td class="w3-center">27</td><td class="w3-center">Tue 12/08</td><td><div class="section2-merged-topic"><!-- <img src="images/new-onstar.gif" width=24> -->
+<!-- <img style="border-style:none; box-shadow: none;" src="images/new-onstar.gif" width=24> -->
+<span class="clickable btn" style="white-space: normal"><a href="supplement/finalexam-guide.html">Course wrap-up and final exam guide</a></span>
+<p style="font-style:italic; line-height:1em">
+<font color="darkgreen" size="-1">
+            Q&amp;A. No lecture or new topic discussion.            
+            </font>
+</p>
+</div><div class="section2-divider"></div><div class="section2-merged-topic">Last minutes Q&amp;A, Office hours on demand
+            <p style="font-style:italic; line-height:1em">
+<font color="darkgreen" size="-1">
+            No lecture or new topic discussion; feel free to drop by  
+            to chat or discuss anything.
+            <!-- 
+            Per the class discussion, no in-person meeting. 
+            Please drop by the Zoom land to chat or discuss anything. -->
+<!-- Please use Piazza for Q&amp;A. -->
+</font>
+</p>
+</div></td><td> </td><td> </td><td> </td><td> </td></tr><tr class="day">
+<td class="w3-center examday">FE</td>
+<td class="w3-center examday">Tu 12/12</td>
+<td class="examday" colspan="5">
+<font color="crimson" size="+1" style="font-weight:bold">Final Exam:
+             Saturday, December 12, 2026 9:00AM-12:00PM <!-- Rice 130 -->  
+             Room: <span class="note">TBD</span>
+<!-- <img src="images/new-onstar.gif" width=24>  -->
+<!-- <a href="https://classrooms.its.virginia.edu/list/gilmer-301" class="offsite" target="_blank">Gilmer 301</a> -->
+</font>
+<br/>             
+             Please refer to Course wrap-up and final exam guide for time and detail
+             <br/>
+<font size="-1" style="font-style:italic">
+             (please refer to the university 
+             <span class="clickable btn" style="white-space: normal"><a class="offsite" href="https://registrar.virginia.edu/exam-schedule-fall-2026" target="_blank" title="click to open the university's final exam schedule">final exam schedule</a></span>)
+             </font>
+</td>
+</tr></table>
+<hr/>
+<div class="row">
+<div class="col-md-10">
+<small>         
+          Copyright © 2026 Upsorn Praphamontripong
+          <br/>Released under the 
+          <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" rel="license" target="_blank"><img alt="Creative Commons License" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" style="border-width:0" target="_blank"/> CC-BY-NC-SA 4.0</a> license.
+          <br/>Last updated 2026-08-27</small>
+</div>
+<div class="col-md-2">
+           
+          <a class="btn btn-primary btn-sm" href="schedule.html" id="btnTop" style="float:right; margin-top:10px" title="A button to go back to top of the page">Top</a>
+</div>
+</div>
+</div>
+<script src="js/jquery.min.js" type="text/javascript"></script>
+<script src="js/bootstrap.min.js" type="text/javascript"></script>
+<!-- <script src="js/schedule-spa.js" type="text/javascript"></script> -->
+<script crossorigin="anonymous" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+<br/><br/>
+</div>
+</body>
+</html>

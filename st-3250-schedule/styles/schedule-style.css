@@ -1,0 +1,65 @@
+/* css for calendar-view.html */
+
+@media (max-width:575px) {
+    .display-4 {
+        font-size: 1.5rem;
+    }
+    .calendar-day h5 {
+        background-color: #f8f9fa;
+        padding: 3px 5px 5px;
+        margin: -8px -8px 8px -8px;
+    }
+    .date {
+        padding-left: 4px;
+    }
+}
+
+@media (min-width: 576px) {
+    .calendar-day {
+        height: 14.2857vw;
+    }
+}
+
+
+.date { 
+   /* font-size: 0.9rem; */
+   /* padding: 2px 2px 2px 6px; */
+}
+
+.calendar { 
+   font-size: 1em;
+   width: 99%;   
+   margin-left: 12px;
+   /* margin-right: 12px; */
+}
+
+.day-content { 
+   font-size: 1em;
+   /* padding: 6px 0px 0px 0px; */
+}
+
+.handouts { 
+   /* background-color: FloralWhite; */
+   padding: 2px;
+   margin: 0px;
+   line-height: 1em; 
+   text-align: left;
+}
+
+.readings { 
+   color: DarkSlateGray;
+   line-height: 1em;
+   text-align: left;	
+}
+
+.activity {
+   background-color: snow;
+   padding: 2px;
+   margin: 0px;
+   line-height: 1em;
+   text-align: left;
+}
+
+thead > tr > th {
+   font-size: 100%;
+}
