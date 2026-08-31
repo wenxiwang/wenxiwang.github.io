@@ -5,13 +5,84 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Wenxi Wang - University of Virginia</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      /*
+       * One content tree, two responsive presentations.
+       * Edit page content only once in the HTML below; these rules handle
+       * desktop/tablet versus phone sizing and layout.
+       */
+      .responsive-copy,
+      .responsive-copy-block {
+        font-family: Consolas;
+        font-size: 1.5em;
+      }
+
+      .responsive-action {
+        font-size: 1.2em;
+      }
+
+      /* Publication author names — match the Hiprel group publication list */
+      #publications ol > li > span:first-child {
+        color: #003366;
+      }
+
+      .about-copy {
+        font-family: Consolas;
+        font-size: 1.5rem;
+      }
+
+      .profile-photo img {
+        max-width: 200px;
+        height: auto;
+      }
+
+      @media (max-width: 767.98px) {
+        #general .container {
+          max-width: 100%;
+        }
+
+        #general h2 {
+          font-size: 1.75rem;
+        }
+
+        .profile-info h4 {
+          font-size: 1rem;
+        }
+
+        .profile-photo {
+          margin-top: 0.75rem;
+          margin-bottom: 0.5rem;
+        }
+
+        .responsive-copy,
+        .responsive-copy-block,
+        .responsive-action {
+          font-size: 4.5vw;
+        }
+
+        .about-copy {
+          font-size: 1.15rem;
+        }
+
+        .hiring-strip {
+          font-size: 1.15rem !important;
+          border-top-width: 6px !important;
+          border-bottom-width: 6px !important;
+        }
+
+        .hiring-copy {
+          font-size: 1rem;
+        }
+      }
+    </style>
   </head>
 
   <body style="background-color: #232D4B;">
-    <div id="general" class="d-none d-md-block">
-        <div class="row py-2">
-            <div class="col-2"> </div>
-            <div class="col-8">
+    <div id="general">
+        <div class="row py-2 d-none d-md-flex">
+            <div class="d-none d-md-block col-md-2"> </div>
+            <div class="col-md-8">
                 <nav class="nav">
                   <a class="nav-link" href="#about" style="color:white; font-size:1.5em;"><strong> About</strong></a>
                   <a class="nav-link" href="#news" style="color:white; font-size:1.5em;"><strong>News</strong></a>
@@ -22,13 +93,13 @@
                   <a class="nav-link" href="recruit.html" style="color:white; font-size:1.5em;"><strong>Join Us</strong></a>   
                 </nav>
             </div>
-            <div class="col-2"> </div>
+            <div class="d-none d-md-block col-md-2"> </div>
         </div>
 
         <div class="container bg-body">
             <div class="row py-4" id="about">
-                <div class="col-2"> </div>
-                <div class="col-5">
+                <div class="d-none d-md-block col-md-2"> </div>
+                <div class="col-12 col-md-5 profile-info">
                     <h2>Wenxi Wang</h2>
                     <h4> Assistant Professor </h4>
                     <h4> The University of Virginia </h4>
@@ -43,7 +114,7 @@
                     </h5>
                     <br>
                     <br> 
-                    <p class="fs-4 fw-bold"
+                    <p class="fs-4 fw-bold hiring-strip"
                     style="display: block;
                          width: 100%;
                          text-align: center;
@@ -66,27 +137,27 @@
     
                 <br>
     
-                <div class="col-3">
-                    <img src="images/photo.jpeg" alt="Wenxi Wang" width="200" height="auto">
+                <div class="col-12 col-md-3 profile-photo text-center text-md-start">
+                    <img src="images/photo.jpeg" alt="Wenxi Wang" width="200" height="auto" class="img-fluid">
                 </div>
     
-                <div class="col-3"> </div>
+                <div class="d-none d-md-block col-md-2"> </div>
             </div>
     
             <div class="row py-1">
-                <div class="col-1"> </div>
-                <div class="col-10">
+                <div class="d-none d-md-block col-md-1"> </div>
+                <div class="col-12 col-md-10">
                     <h2>About</h2>
                     <hr>
-                    <p class="h4" style="font-family:Consolas;">
+                    <p class="about-copy">
                         My interests lie in the intersection of Software Engineering, 
                         Software Security, Formal Methods, and Machine Learning. My research focuses on advancing <strong> Neuro-Symbolic AI </strong> to improve the scalability and efficiency of automated reasoning systems, while enabling AI models to develop reasoning and verification capabilities. Beyond foundational research, I design <strong> specialized Neuro-Symbolic methods to enhance software reliability</strong>, including modern AI systems, and explore verifiable code generation to make software development more trustworthy and error-resistant. 
                     </p>
-                    <p class="h4" style="font-family:Consolas;">
+                    <p class="about-copy">
                         I currently lead the <a href="https://wenxiwang.github.io/group.html"><strong>Hiprel Group</strong></a>, where I fortunately work with a number of talented and motivated students. 
                     </p>
     
-                    <p class="h4" style="font-family:Consolas;">
+                    <p class="about-copy">
                     I did my PhD at The University of Texas at 
                     Austin, supervised by <a href="https://users.ece.utexas.edu/~khurshid/">
                         <strong>Sarfraz Khurshid</strong></a>. During my PhD, I have also been closely working
@@ -98,7 +169,7 @@
                     <div class="alert alert-secondary" role="alert" style="background-color: #232D4B; 
                         border-block-style:solid; border-block-width: 10px; border-block-color: #E57200;">
                     
-                        <p class="h5" style="color: white;">
+                        <p class="h5 hiring-copy" style="color: white;">
                             <strong>
                             I am looking for self-motivated PhD (Fall 2027) and internship students (all year round) who share similar research 
                             interests with me and is interested in joining our <a href="https://wenxiwang.github.io/group.html"><strong>Hiprel Group</strong></a>! Please click <a href="https://wenxiwang.github.io/recruit.html"><strong>here</strong></a> for more information. If you're interested in working with me, please fill out <a href="https://docs.google.com/forms/d/e/1FAIpQLSdFl1Ix1pxDjD9CxWqpP68ZPk2Mfwypd6GIUvvfO28OvZnsWQ/viewform"><strong>this form</strong></a>. You’re also welcome to follow up via email. While I will review all submissions, I apologize in advance if I'm unable to respond to everyone.
@@ -107,7 +178,7 @@
                        
                     </div>
                 </div>
-                <div class="col-1"> </div>
+                <div class="d-none d-md-block col-md-1"> </div>
             </div> 
 
 
@@ -115,12 +186,12 @@
 
 
             <div class="row py-2">
-                <div class="col-1"> </div>
+                <div class="d-none d-md-block col-md-1"> </div>
                 <!-- news -->
-                <div class="col-10" id="news">
+                <div class="col-12 col-md-10" id="news">
                     <h2>News</h2>
                     <hr>
-                    <span style="font-family:Consolas; font-size:1.5em;">
+                    <span class="responsive-copy">
 
                         <ul>
                             <li><b>[May 2026]</b> 
@@ -147,218 +218,218 @@
                         </ul>
                     </span>
                 </div>
-                <div class="col-1"> </div>
+                <div class="d-none d-md-block col-md-1"> </div>
             </div>
     
             <div class="row py-2">
-                <div class="col-1"> </div>
-                <div class="col-10" id="publications">
+                <div class="d-none d-md-block col-md-1"> </div>
+                <div class="col-12 col-md-10" id="publications">
                     <h2>Publications</h2>
                     <hr>
                     <!-- Paper -->
                     <ol>
                         <li>
-                            <span style="font-family:Consolas; font-size:1.5em;"> 
+                            <span class="responsive-copy"> 
                               Chaitanya Shahane, Derek Hansen, <strong>Wenxi Wang</strong>, Pengyu Nie </span><br/>
-                            <span style="font-family:Consolas; font-size:1.5em; font-weight:bold;">Differential Inline Testing: Framework, Test Generation, and Application </span><br/>
-                            <span style="font-family:Consolas; font-size:1.5em;"> The 36th IEEE International Conference on Collaborative Advances in Software and Computing (CASCON 2026) (to appear)</span><br/>
+                            <span class="responsive-copy fw-bold">Differential Inline Testing: Framework, Test Generation, and Application </span><br/>
+                            <span class="responsive-copy"> The 36th IEEE International Conference on Collaborative Advances in Software and Computing (CASCON 2026) (to appear)</span><br/>
 
                         </li>
 
                         <li>
-                            <span style="font-family:Consolas; font-size:1.5em;"> 
+                            <span class="responsive-copy"> 
                               Zichen Xie, <strong>Wenxi Wang</strong></span><br/>
-                            <span style="font-family:Consolas; font-size:1.5em; font-weight:bold;">Can LLMs Reason Like Automated Theorem Provers for Rust Verification? VCoT-Bench: Evaluating via Verification Chain of Thought </span><br/>
-                            <span style="font-family:Consolas; font-size:1.5em;"> The forty-third International Conference on Machine Learning (ICML 2026) </span><br/>
+                            <span class="responsive-copy fw-bold">Can LLMs Reason Like Automated Theorem Provers for Rust Verification? VCoT-Bench: Evaluating via Verification Chain of Thought </span><br/>
+                            <span class="responsive-copy"> The forty-third International Conference on Machine Learning (ICML 2026) </span><br/>
 
-                            <span style="font-size:1.2em;">
+                            <span class="responsive-action">
                             <a href="https://arxiv.org/pdf/2603.18334" class="btn btn-primary"><strong>PDF</strong></a></span>
 
                         </li>
 
                         <li>
-                            <span style="font-family:Consolas; font-size:1.5em;"> 
+                            <span class="responsive-copy"> 
                               Arjun Tandon, Mehmet Fırat Dündar, Milkiyas Gebremichael Gebru, Darko Marinov, Yiling Lou, <strong>Wenxi Wang</strong></span><br/>
-                            <span style="font-family:Consolas; font-size:1.5em; font-weight:bold;">Re-evaluating Detection of Equivalent Mutants Using LLMs: We Should Properly Measure How Far We Are </span><br/>
-                            <span style="font-family:Consolas; font-size:1.5em;"> The 35th ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA 2026) </span><br/>
+                            <span class="responsive-copy fw-bold">Re-evaluating Detection of Equivalent Mutants Using LLMs: We Should Properly Measure How Far We Are </span><br/>
+                            <span class="responsive-copy"> The 35th ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA 2026) </span><br/>
 
-                            <span style="font-size:1.2em;">
+                            <span class="responsive-action">
                             <a href="papers/LLM4Mutant-evel.pdf" class="btn btn-primary"><strong>PDF</strong></a></span>
 
                         </li>
 
                         <li>
-                            <span style="font-family:Consolas; font-size:1.5em;"> 
+                            <span class="responsive-copy"> 
                               Mrigank Pawagi, Lize Shao, Hyeonmin Lee, Yixin Sun, <strong>Wenxi Wang</strong></span><br/>
-                            <span style="font-family:Consolas; font-size:1.5em; font-weight:bold;">RFCScope: Detecting Logical Ambiguities in Internet Protocol Specifications</span><br/>
-                            <span style="font-family:Consolas; font-size:1.5em;"> The 40th IEEE/ACM International Conference on Automated Software Engineering (ASE 2025)</span><br/>
+                            <span class="responsive-copy fw-bold">RFCScope: Detecting Logical Ambiguities in Internet Protocol Specifications</span><br/>
+                            <span class="responsive-copy"> The 40th IEEE/ACM International Conference on Automated Software Engineering (ASE 2025)</span><br/>
 
-                            <span style="font-size:1.2em;">
+                            <span class="responsive-action">
                             <a href="papers/rfcscope/rfcscope_paper.pdf" class="btn btn-primary"><strong>PDF</strong></a></span>
 
-                            <span style="font-size:1.2em;">
+                            <span class="responsive-action">
                             <a href="papers/rfcscope/rfcscope_slides.pdf" class="btn btn-primary"><strong>Slides</strong></a></span>
 
-                            <span style="font-size:1.2em;">
+                            <span class="responsive-action">
                             <a href="papers/rfcscope/rfcscope_poster.pdf" class="btn btn-primary"><strong>Poster</strong></a></span>
                             
                         </li>
 
                         <li>
-                            <span style="font-family:Consolas; font-size:1.5em;"> 
+                            <span class="responsive-copy"> 
                                 <strong>Wenxi Wang</strong>, Yang Hu, Mohit Tiwari, Sarfraz Khurshid, Kenneth McMillan, Risto Miikkulainen</span><br/>
-                            <span style="font-family:Consolas; font-size:1.5em; font-weight:bold;">NeuroBack: Improving CDCL SAT Solving using Graph Neural Networks</span><br/>
-                            <span style="font-family:Consolas; font-size:1.5em;">The 12th International Conference on Learning Representations (ICLR 2024)</span><br/>
-                            <span style="font-size:1.2em;">
+                            <span class="responsive-copy fw-bold">NeuroBack: Improving CDCL SAT Solving using Graph Neural Networks</span><br/>
+                            <span class="responsive-copy">The 12th International Conference on Learning Representations (ICLR 2024)</span><br/>
+                            <span class="responsive-action">
                             <a href="https://arxiv.org/pdf/2110.14053.pdf" class="btn btn-primary"><strong>PDF</strong></a> <!-- <a href="https://huggingface.co/datasets/neuroback/DataBack" class="btn btn-primary"><strong>DATA</strong></a> --> </span>
                         </li>
     
                         <li>
-                            <span style="font-family:Consolas; font-size:1.5em;"> Yang Hu*, <strong>Wenxi Wang</strong>*, Sarfraz Khurshid, Mohit Tiwari</span><br/>
-                            <span style="font-family:Consolas; font-size:1.5em; font-weight:bold;">Interactive Greybox Penetration Testing for Cloud Access Control using IAM Modeling and Deep Reinforcement Learning</span><br/>
-                            <span style="font-family:Consolas; font-size:1.5em;">arXiv preprint                     
+                            <span class="responsive-copy"> Yang Hu*, <strong>Wenxi Wang</strong>*, Sarfraz Khurshid, Mohit Tiwari</span><br/>
+                            <span class="responsive-copy fw-bold">Interactive Greybox Penetration Testing for Cloud Access Control using IAM Modeling and Deep Reinforcement Learning</span><br/>
+                            <span class="responsive-copy">arXiv preprint                     
                             </span><br/>
-                            <span style="font-family:Consolas; font-size:1.5em;">* denotes that these authors contribute equally to the paper                  
+                            <span class="responsive-copy">* denotes that these authors contribute equally to the paper                  
                             </span><br/>
     
-                            <span style="font-size:1.2em;">
+                            <span class="responsive-action">
                             <a href="https://browse.arxiv.org/pdf/2304.14540.pdf" class="btn btn-primary"><strong>PDF</strong></a></span>
                         </li>
     
                         <li>
-                            <span style="font-family:Consolas; font-size:1.5em;"> Yang Hu*, <strong>Wenxi Wang</strong>*, Sarfraz Khurshid, Kenneth McMillan, Mohit Tiwari</span><br/>
-                            <span style="font-family:Consolas; font-size:1.5em; font-weight:bold;">Fixing Privilege Escalations in Cloud Access Control with MaxSAT and Graph Neural Networks</span><br/>
-                            <span style="font-family:Consolas; font-size:1.5em;">The 38th IEEE/ACM International Conference on Automated Software Engineering (ASE 2023)</span><br/>
+                            <span class="responsive-copy"> Yang Hu*, <strong>Wenxi Wang</strong>*, Sarfraz Khurshid, Kenneth McMillan, Mohit Tiwari</span><br/>
+                            <span class="responsive-copy fw-bold">Fixing Privilege Escalations in Cloud Access Control with MaxSAT and Graph Neural Networks</span><br/>
+                            <span class="responsive-copy">The 38th IEEE/ACM International Conference on Automated Software Engineering (ASE 2023)</span><br/>
     
-                            <span style="font-family:Consolas; font-size:1.5em;">* denotes that these authors contribute equally to the paper.</span><br/>
+                            <span class="responsive-copy">* denotes that these authors contribute equally to the paper.</span><br/>
     
-                            <span style="font-size:1.2em;">
-                            <a href="papers/IAMPERE_ase2023.pdf" class="btn btn-primary"><strong>PDF</strong></i></a> <!--<a href="papers/ase23-slides.pdf" class="btn btn-primary"><strong>SLIDES</strong></a> <a href="https://github.com/githubhuyang/iampere" class="btn btn-primary"><strong>CODE</strong></a>--></span>
+                            <span class="responsive-action">
+                            <a href="papers/IAMPERE_ase2023.pdf" class="btn btn-primary"><strong>PDF</strong></a> <!--<a href="papers/ase23-slides.pdf" class="btn btn-primary"><strong>SLIDES</strong></a> <a href="https://github.com/githubhuyang/iampere" class="btn btn-primary"><strong>CODE</strong></a>--></span>
     
                         </li>
     
                         <li>
-                            <span style="font-family:Consolas; font-size:1.5em;"> Armin Biere, Nils Froleyks, <strong>Wenxi Wang</strong></span><br/>
-                            <span style="font-family:Consolas; font-size:1.5em; font-weight:bold;">CadiBack: Extracting Backbones with CaDiCaL</span><br/>
-                            <span style="font-family:Consolas; font-size:1.5em;">The 26th International Conference on Theory and Applications of Satisfiability Testing (SAT 2023, Tool Paper)</span><br/>
+                            <span class="responsive-copy"> Armin Biere, Nils Froleyks, <strong>Wenxi Wang</strong></span><br/>
+                            <span class="responsive-copy fw-bold">CadiBack: Extracting Backbones with CaDiCaL</span><br/>
+                            <span class="responsive-copy">The 26th International Conference on Theory and Applications of Satisfiability Testing (SAT 2023, Tool Paper)</span><br/>
     
-                            <span style="font-size:1.2em;">
+                            <span class="responsive-action">
                             <a href="papers/cadiback.pdf" class="btn btn-primary"><strong>PDF</strong></a> <!-- <a href="https://github.com/arminbiere/cadiback" class="btn btn-primary"><strong>CODE</strong></a>--> </span>
                         </li>
     
                         <li>
-                            <span style="font-family:Consolas; font-size:1.5em;"> <strong>Wenxi Wang</strong>, Yang Hu, Kenneth McMillan, Sarfraz Khurshid</span><br/>
-                            <span style="font-family:Consolas; font-size:1.5em; font-weight:bold;">SymMC: Approximate Model Enumeration and Counting Using Symmetry Information for Alloy Specifications</span><br/>
-                            <span style="font-family:Consolas; font-size:1.5em;">The 21st ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE 2022)</span><br/>
+                            <span class="responsive-copy"> <strong>Wenxi Wang</strong>, Yang Hu, Kenneth McMillan, Sarfraz Khurshid</span><br/>
+                            <span class="responsive-copy fw-bold">SymMC: Approximate Model Enumeration and Counting Using Symmetry Information for Alloy Specifications</span><br/>
+                            <span class="responsive-copy">The 21st ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE 2022)</span><br/>
     
-                            <span style="font-size:1.2em;">
+                            <span class="responsive-action">
                             <a href="papers/SymMC.pdf" class="btn btn-primary"><strong>PDF</strong></a> <!--<a href="https://github.com/wenxiwang/SymMC-Tool" class="btn btn-primary"><strong>CODE</strong></a>--></span>
                         </li>
     
                         <li>
-                            <span style="font-family:Consolas; font-size:1.5em;"> Chengpeng Li, Chenguang Zhu, <strong>Wenxi Wang</strong>, August Shi</span><br/>
-                            <span style="font-family:Consolas; font-size:1.5em; font-weight:bold;">Repairing Order-Dependent Flaky Tests via Test Generation</span><br/>
-                            <span style="font-family:Consolas; font-size:1.5em;">The 44th International Conference on Software Engineering (ICSE 2022)</span><br/>
+                            <span class="responsive-copy"> Chengpeng Li, Chenguang Zhu, <strong>Wenxi Wang</strong>, August Shi</span><br/>
+                            <span class="responsive-copy fw-bold">Repairing Order-Dependent Flaky Tests via Test Generation</span><br/>
+                            <span class="responsive-copy">The 44th International Conference on Software Engineering (ICSE 2022)</span><br/>
     
-                            <span style="font-size:1.2em;">
+                            <span class="responsive-action">
                             <a href="papers/ICSE2022.pdf" class="btn btn-primary"><strong>PDF</strong></a></span>
                         </li>
     
                         <li>
-                            <span style="font-family:Consolas; font-size:1.5em;"> <strong>Wenxi Wang</strong>, Pu Yi, Sarfraz Khurshid, Darko Marinov</span><br/>
-                            <span style="font-family:Consolas; font-size:1.5em; font-weight:bold;">Initial Results on Counting Test Orders for Order-Dependent Flaky Tests using Alloy</span><br/>
-                            <span style="font-family:Consolas; font-size:1.5em;">The 33rd IFIP International Conference on Testing Software and Systems (ICTSS 2021) (short paper)</span><br/>
+                            <span class="responsive-copy"> <strong>Wenxi Wang</strong>, Pu Yi, Sarfraz Khurshid, Darko Marinov</span><br/>
+                            <span class="responsive-copy fw-bold">Initial Results on Counting Test Orders for Order-Dependent Flaky Tests using Alloy</span><br/>
+                            <span class="responsive-copy">The 33rd IFIP International Conference on Testing Software and Systems (ICTSS 2021) (short paper)</span><br/>
     
-                            <span style="font-size:1.2em;">
+                            <span class="responsive-action">
                             <a href="papers/ictss2021.pdf" class="btn btn-primary"><strong>PDF</strong></a></span>
                         </li>
     
                         <li>
-                            <span style="font-family:Consolas; font-size:1.5em;"> Yang Hu, <strong>Wenxi Wang</strong>, Casen Hunger, Riley Wood, Sarfraz Khurshid, Mohit Tiwari </span><br/>
-                            <span style="font-family:Consolas; font-size:1.5em; font-weight:bold;">ACHyb: A Hybrid Analysis Approach to Detect Kernel Access Control Vulnerabilities</span><br/>
-                            <span style="font-family:Consolas; font-size:1.5em;">The 20th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software  Engineering (ESEC/FSE 2021) </span><br/>
+                            <span class="responsive-copy"> Yang Hu, <strong>Wenxi Wang</strong>, Casen Hunger, Riley Wood, Sarfraz Khurshid, Mohit Tiwari </span><br/>
+                            <span class="responsive-copy fw-bold">ACHyb: A Hybrid Analysis Approach to Detect Kernel Access Control Vulnerabilities</span><br/>
+                            <span class="responsive-copy">The 20th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software  Engineering (ESEC/FSE 2021) </span><br/>
     
-                            <span style="font-size:1.2em;">
+                            <span class="responsive-action">
                             <a href="papers/ACHyb.pdf" class="btn btn-primary"><strong>PDF</strong></a></span>
                         </li>
     
                         <li>
-                            <span style="font-family:Consolas; font-size:1.5em;"> <strong>Wenxi Wang</strong>, Muhammad Usman, Alyas Almaawi, Kaiyuan Wang, Kuldeep S. Meel and Sarfraz Khurshid </span><br/>
-                            <span style="font-family:Consolas; font-size:1.5em; font-weight:bold;">A Study of Symmetry Breaking Predicates and Model Counting</span><br/>
-                            <span style="font-family:Consolas; font-size:1.5em;">International Conference on Tools and Algorithms for the Construction and Analysis of Systems (TACAS 2020) </span><br/>
-                            <span style="font-size:1.2em;">
+                            <span class="responsive-copy"> <strong>Wenxi Wang</strong>, Muhammad Usman, Alyas Almaawi, Kaiyuan Wang, Kuldeep S. Meel and Sarfraz Khurshid </span><br/>
+                            <span class="responsive-copy fw-bold">A Study of Symmetry Breaking Predicates and Model Counting</span><br/>
+                            <span class="responsive-copy">International Conference on Tools and Algorithms for the Construction and Analysis of Systems (TACAS 2020) </span><br/>
+                            <span class="responsive-action">
                             <a href="papers/symmetry_study.pdf" class="btn btn-primary"><strong>PDF</strong></a> <!-- <a href="https://github.com/wenxiwang/TACAS2020" class="btn btn-primary"><strong>DATA</strong></a>--></span>
                         </li>
     
                         <li>
-                            <span style="font-family:Consolas; font-size:1.5em;"> Jiayi Yang, <strong>Wenxi Wang</strong>, Darko Marinov, Sarfraz Khurshid </span><br/>
-                            <span style="font-family:Consolas; font-size:1.5em; font-weight:bold;">AlloyMC: Alloy Meets Model Counting</span><br/>
-                            <span style="font-family:Consolas; font-size:1.5em;">The ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering(ESEC/FSE 2020, Tool Demo) </span><br/>
-                            <span style="font-size:1.2em;">
+                            <span class="responsive-copy"> Jiayi Yang, <strong>Wenxi Wang</strong>, Darko Marinov, Sarfraz Khurshid </span><br/>
+                            <span class="responsive-copy fw-bold">AlloyMC: Alloy Meets Model Counting</span><br/>
+                            <span class="responsive-copy">The ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering(ESEC/FSE 2020, Tool Demo) </span><br/>
+                            <span class="responsive-action">
                             <a href="papers/AlloyMC.pdf" class="btn btn-primary"><strong>PDF</strong></a></span>
                         </li>
     
                         <li>
-                            <span style="font-family:Consolas; font-size:1.5em;"> Muhammad Usman, <strong>Wenxi Wang</strong>, Sarfraz Khurshid </span><br/>
-                            <span style="font-family:Consolas; font-size:1.5em; font-weight:bold;">TestMC: Testing Model Counters Using Differential and Metamorphic Testing</span><br/>
-                            <span style="font-family:Consolas; font-size:1.5em;">The 35th IEEE/ACM International Conference on Automated Software Engineering (ASE 2020) </span><br/>
-                            <span style="font-size:1.2em;">
+                            <span class="responsive-copy"> Muhammad Usman, <strong>Wenxi Wang</strong>, Sarfraz Khurshid </span><br/>
+                            <span class="responsive-copy fw-bold">TestMC: Testing Model Counters Using Differential and Metamorphic Testing</span><br/>
+                            <span class="responsive-copy">The 35th IEEE/ACM International Conference on Automated Software Engineering (ASE 2020) </span><br/>
+                            <span class="responsive-action">
                             <a href="papers/TestMC.pdf" class="btn btn-primary"><strong>PDF</strong></a></span>
                         </li>
     
                         <li>
-                            <span style="font-family:Consolas; font-size:1.5em;"> Muhammad Usman, <strong>Wenxi Wang</strong>, Kaiyuan Wang, Marko Vasic, Haris Vikalo, Sarfraz Khurshid </span><br/>
-                            <span style="font-family:Consolas; font-size:1.5em; font-weight:bold;">A Study of the Learnability of Relational Properties (Model Counting Meets Machine Learning)</span><br/>
-                            <span style="font-family:Consolas; font-size:1.5em;">The 41st ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI 2020) </span><br/>
-                            <span style="font-size:1.2em;">
+                            <span class="responsive-copy"> Muhammad Usman, <strong>Wenxi Wang</strong>, Kaiyuan Wang, Marko Vasic, Haris Vikalo, Sarfraz Khurshid </span><br/>
+                            <span class="responsive-copy fw-bold">A Study of the Learnability of Relational Properties (Model Counting Meets Machine Learning)</span><br/>
+                            <span class="responsive-copy">The 41st ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI 2020) </span><br/>
+                            <span class="responsive-action">
                             <a href="papers/PLDI2020.pdf" class="btn btn-primary"><strong>PDF</strong></a></span>
                         </li>
     
                         <li>
-                            <span style="font-family:Consolas; font-size:1.5em;"> Muhammad Usman, <strong>Wenxi Wang</strong>, Kaiyuan Wang, Cagdas Yelen, Nima Dini and Sarfraz Khurshid </span><br/>
-                            <span style="font-family:Consolas; font-size:1.5em; font-weight:bold;">A Study of Learning Likely Data Structure Properties using Machine Learning Models</span><br/>
-                            <span style="font-family:Consolas; font-size:1.5em;">International Journal on Software Tools for Technology Transfer (STTT 2020) </span><br/>
-                            <span style="font-size:1.2em;">
+                            <span class="responsive-copy"> Muhammad Usman, <strong>Wenxi Wang</strong>, Kaiyuan Wang, Cagdas Yelen, Nima Dini and Sarfraz Khurshid </span><br/>
+                            <span class="responsive-copy fw-bold">A Study of Learning Likely Data Structure Properties using Machine Learning Models</span><br/>
+                            <span class="responsive-copy">International Journal on Software Tools for Technology Transfer (STTT 2020) </span><br/>
+                            <span class="responsive-action">
                             <a href="papers/sttt2020.pdf" class="btn btn-primary"><strong>PDF</strong></a></span>
                         </li>
     
                         <li>
-                            <span style="font-family:Consolas; font-size:1.5em;"> <strong>Wenxi Wang</strong>, Kaiyuan Wang, Milos Gligoric, Sarfraz Khurshid </span><br/>
-                            <span style="font-family:Consolas; font-size:1.5em; font-weight:bold;">Incremental Analysis of Evolving Alloy Models</span><br/>
-                            <span style="font-family:Consolas; font-size:1.5em;">International Conference on Tools and Algorithms for the Construction and Analysis of Systems (TACAS 2019) </span><br/>
-                            <span style="font-size:1.2em;">
+                            <span class="responsive-copy"> <strong>Wenxi Wang</strong>, Kaiyuan Wang, Milos Gligoric, Sarfraz Khurshid </span><br/>
+                            <span class="responsive-copy fw-bold">Incremental Analysis of Evolving Alloy Models</span><br/>
+                            <span class="responsive-copy">International Conference on Tools and Algorithms for the Construction and Analysis of Systems (TACAS 2019) </span><br/>
+                            <span class="responsive-action">
                             <a href="papers/incrementalAlloy.pdf" class="btn btn-primary"><strong>PDF</strong></a> <!--<a href="https://github.com/wenxiwang/iAlloy-dataset" class="btn btn-primary"><strong>DATA</strong></a>--></span>
                         </li>
     
                         <li>
-                            <span style="font-family:Consolas; font-size:1.5em;"> Muhammad Usman, <strong>Wenxi Wang</strong>, Kaiyuan Wang, Cagdas Yelen, Nima Dini and Sarfraz Khurshid </span><br/>
-                            <span style="font-family:Consolas; font-size:1.5em; font-weight:bold;">A Study of Learning Data Structure Invariants Using Off-the-shelf Tools</span><br/>
-                            <span style="font-family:Consolas; font-size:1.5em;">International SPIN Symposium on Model Checking of Software (SPIN 2019) </span><br/>
-                            <span style="font-size:1.2em;">
+                            <span class="responsive-copy"> Muhammad Usman, <strong>Wenxi Wang</strong>, Kaiyuan Wang, Cagdas Yelen, Nima Dini and Sarfraz Khurshid </span><br/>
+                            <span class="responsive-copy fw-bold">A Study of Learning Data Structure Invariants Using Off-the-shelf Tools</span><br/>
+                            <span class="responsive-copy">International SPIN Symposium on Model Checking of Software (SPIN 2019) </span><br/>
+                            <span class="responsive-action">
                             <a href="papers/spin2019.pdf" class="btn btn-primary"><strong>PDF</strong></a></span>
                         </li>
     
                         <li>
-                            <span style="font-family:Consolas; font-size:1.5em;"> <strong>Wenxi Wang</strong>, Kaiyuan Wang, Mengshi Zhang, Sarfraz Khurshid </span><br/>
-                            <span style="font-family:Consolas; font-size:1.5em; font-weight:bold;">Learning to Optimize the Alloy Analyzer</span><br/>
-                            <span style="font-family:Consolas; font-size:1.5em;">IEEE International Conference on Software Testing, Verification and Validation (ICST 2019) </span><br/>
-                            <span style="font-size:1.2em;">
+                            <span class="responsive-copy"> <strong>Wenxi Wang</strong>, Kaiyuan Wang, Mengshi Zhang, Sarfraz Khurshid </span><br/>
+                            <span class="responsive-copy fw-bold">Learning to Optimize the Alloy Analyzer</span><br/>
+                            <span class="responsive-copy">IEEE International Conference on Software Testing, Verification and Validation (ICST 2019) </span><br/>
+                            <span class="responsive-action">
                             <a href="papers/Learning_to_Optimize_the_Alloy_Analyzer.pdf" class="btn btn-primary"><strong>PDF</strong></a></span>
                         </li>
     
                         <li>
-                            <span style="font-family:Consolas; font-size:1.5em;"> <strong>Wenxi Wang</strong>, Harald Sondergaard, Peter J. Stuckey </span><br/>
-                            <span style="font-family:Consolas; font-size:1.5em; font-weight:bold;">Wombit: A Portfolio Bit-Vector Solver using Word-Level Propagation</span><br/>
-                            <span style="font-family:Consolas; font-size:1.5em;">Journal of Automated Reasoning (JAR 2018) </span><br/>
-                            <span style="font-size:1.2em;">
+                            <span class="responsive-copy"> <strong>Wenxi Wang</strong>, Harald Sondergaard, Peter J. Stuckey </span><br/>
+                            <span class="responsive-copy fw-bold">Wombit: A Portfolio Bit-Vector Solver using Word-Level Propagation</span><br/>
+                            <span class="responsive-copy">Journal of Automated Reasoning (JAR 2018) </span><br/>
+                            <span class="responsive-action">
                             <a href="papers/Wombit.pdf" class="btn btn-primary"><strong>PDF</strong></a></span>
                         </li>
     
                         <li>
-                            <span style="font-family:Consolas; font-size:1.5em;"> <strong>Wenxi Wang</strong>, Harald Sondergaard, Peter J. Stuckey </span><br/>
-                            <span style="font-family:Consolas; font-size:1.5em; font-weight:bold;">A Bit-Vector Solver with Word-Level Propagation</span><br/>
-                            <span style="font-family:Consolas; font-size:1.5em;">Integration of AI and OR Techniques in Constraint Programming (CPAIOR 2016) </span><br/>
-                            <span style="font-size:1.2em;">
+                            <span class="responsive-copy"> <strong>Wenxi Wang</strong>, Harald Sondergaard, Peter J. Stuckey </span><br/>
+                            <span class="responsive-copy fw-bold">A Bit-Vector Solver with Word-Level Propagation</span><br/>
+                            <span class="responsive-copy">Integration of AI and OR Techniques in Constraint Programming (CPAIOR 2016) </span><br/>
+                            <span class="responsive-action">
                             <a href="papers/cpaior2016.pdf" class="btn btn-primary"><strong>PDF</strong></a></span>
                         </li>
 
@@ -366,16 +437,16 @@
 ​                    </ol>
 ​                </div>
 ​    
-​                <div class="col-1"> </div>
+​                <div class="d-none d-md-block col-md-1"> </div>
 ​            </div>
 ​    
             <div class="row py-2">
-                <div class="col-1"> </div>
+                <div class="d-none d-md-block col-md-1"> </div>
                 <!-- services -->
-                <div class="col-10" id="services">
+                <div class="col-12 col-md-10" id="services">
                     <h2>Services</h2>
                     <hr>
-                    <span style="font-family:Consolas; font-size:1.5em;">
+                    <span class="responsive-copy">
                         <ul>
                             <li>OOPSLA 2027 PC Member</li>
                             <li>FSE 2027 PC Member</li>
@@ -404,18 +475,18 @@
                         </ul>
                     </span>
                 </div>
-                <div class="col-1"> </div>
+                <div class="d-none d-md-block col-md-1"> </div>
             </div>
 ​ 
 
             <div class="row py-2">
-                <div class="col-1"> </div>
+                <div class="d-none d-md-block col-md-1"> </div>
                 <!-- teaching -->
-                <div class="col-10" id="teaching">
+                <div class="col-12 col-md-10" id="teaching">
 
                     <h2>Teaching</h2>
                     <hr>
-                    <div style="font-family: Consolas; font-size: 1.5em;">
+                    <div class="responsive-copy-block">
                     <ul>
                         <li>
                             <b>[Fall 2024]</b>
@@ -443,413 +514,12 @@
                     </ul>
                     </div>
                 </div>
-                <div class="col-1"> </div>
+                <div class="d-none d-md-block col-md-1"> </div>
             </div>
         </div>
     </div>
 
 
-    <div id="mobile" class="d-block d-md-none d-lg-none">    
-        <div class="container bg-body">
-            <div class="row py-4" id="about">
-                <div class="col-8">
-                    <h3>Wenxi Wang</h3>
-                    <h6> Assistant Professor </h6>
-                    <h6> The University of Virginia </h6>
-                    <h6> CS Department </h6>
-                    <h6>Email: wenxiw@virginia.edu </h6>
-                </div>
-    
-                <div class="col-6">
-                    <img src="images/photo.jpeg" alt="Wenxi Wang" width="200" height="auto">
-                    
-                </div>
-     
-                <div class = "row py-2">
-                <div class="col-12">
-                  
-                   
-                    <a href="https://twitter.com/WenxiWang4" class="btn btn-primary" style="font-size:3vw">
-                        <strong>Twitter</strong></a>
-                    <br>
-                    <br>
-                    <p class="btn btn-primary fs-4 fw-bold"  
-                        style=" background-color: #232D4B; 
-                        border-block-style:solid; border-block-width: 6px; border-block-color: #E57200;">
-                        
-                        <a style="color: #ffffff; text-decoration: none;" href="https://wenxiwang.github.io/recruit.html">
-                            <span><u>We are hiring Fall'27 PhDs!</u></span>
-                        </a> 
-                         ! 
-                    </p>
-
-
-​                
-                </div>
-                </div>
-    
-            </div>
-        
-            <div class="row py-1">
-                <div class="col-12">
-                    
-                    <h3>About</h3>
-                    <hr>
-                    <p class="h5" style="font-family:Consolas;">
-                        My interests lie in the intersection of <strong>Software Engineering, 
-                        Software Security, Formal Methods, and Machine Learning</strong></a>. I am particularly interested in advancing NeuroSymbolic approaches to enhance the reliability and trustworthiness of software and AI systems.
-                    </p>
-    
-                    <p class="h5" style="font-family:Consolas;">
-                    I did my PhD at The University of Texas at 
-                    Austin, supervised by <a href="https://users.ece.utexas.edu/~khurshid/">
-                        <strong>Sarfraz Khurshid</strong></a>. During my PhD, I have also been closely working
-                        with <a href="http://mcmil.net/wordpress/"><strong>Kenneth McMillan</strong></a> and 
-                        <a href="http://mir.cs.illinois.edu/marinov/"><strong>Darko Marinov</strong></a>. 
-                    </p>
-    
-                    <br>
-                    
-                    <div class="alert alert-secondary" role="alert" style="background-color: #232D4B;
-                    border-block-style:solid; border-block-width: 10px; border-block-color: #E57200;">
-                        <p class="h6" style="color: white;">
-                            <strong>
-                                I am looking for self-motivated PhD (Fall 2027) and internship students (all year round) who share similar research 
-                                interests with me and is interested in joining our <a href="https://wenxiwang.github.io/group.html"><strong>Hiprel Group</strong></a>! Please click <a href="https://wenxiwang.github.io/recruit.html"><strong>here</strong></a> for more information. If you're interested in working with me, please fill out <a href="https://docs.google.com/forms/d/e/1FAIpQLSdFl1Ix1pxDjD9CxWqpP68ZPk2Mfwypd6GIUvvfO28OvZnsWQ/viewform"><strong>this form</strong></a>. You’re also welcome to follow up via email. While I will review all submissions, I apologize in advance if I'm unable to respond to everyone.
-                            </strong>
-                        </p>
-                       
-                    </div>
-                </div>
-            </div> 
-
-
-            <div class="row py-2">
-                <!-- news -->
-                <div class="col-12" id="news">
-                    <h3>News</h3>
-                    <hr>
-                    <span style="font-family:Consolas; font-size:4.5vw;">
-
-                        <ul>
-                            <li><b>[May 2026]</b> 
-                                Got Silver Reviewer Award from ICML 2026 :)</li>
-                            
-                        </ul>
-
-                        <ul>
-                            <li><b>[Apr 2026]</b> 
-                                Excited to share that our VCoT-Bench paper, first authored by my PhD student Zichen (Grayson) Xie, has been accepted at ICML 2026! </li>
-                            
-                        </ul>
-
-                        <ul>
-                            <li><b>[Apr 2026]</b> 
-                                Excited to share that our Re-evaluating Equivalent Mutants Detection paper, the paper authored by our undergraduate intern students (Arjun, Firat and Milkiyas) from UIUC+ Summer program, has been accepted at ISSTA 2026! </li>
-                            
-                        </ul>
-
-                        <ul>
-                            <li><b>[Sep 2025]</b> 
-                                Excited to share that our RFCScope paper, the first paper authored by my intern (Mrigank Pawagi) and PhD student (Lize Shao) under my supervision, has been accepted at ASE 2025! </li>
-                            
-                        </ul>
-
-                        
-                    </span>
-                </div>
-                
-            </div>
-    
-            <div class="row py-2">
-                <div class="col-12" id="publications">
-                    <h3>Publications</h3>
-                    <hr>
-                    <!-- Paper -->
-                    <ol>
-
-                        <li>
-                            <span style="font-family:Consolas; font-size:4.5vw;"> 
-                              Chaitanya Shahane, Derek Hansen, <strong>Wenxi Wang</strong>, Pengyu Nie </span><br/>
-                            <span style="font-family:Consolas; font-size:4.5vw; font-weight:bold;">Differential Inline Testing: Framework, Test Generation, and Application </span><br/>
-                            <span style="font-family:Consolas; font-size:4.5vw;"> The 36th IEEE International Conference on Collaborative Advances in Software and Computing (CASCON 2026) (to appear)</span><br/>
-
-                        </li>
-
-
-                        <li>
-                            <span style="font-family:Consolas; font-size:4.5vw;"> 
-                              Zichen Xie, <strong>Wenxi Wang</strong></span><br/>
-                            <span style="font-family:Consolas; font-size:4.5vw; font-weight:bold;">Can LLMs Reason Like Automated Theorem Provers for Rust Verification? VCoT-Bench: Evaluating via Verification Chain of Thought </span><br/>
-                            <span style="font-family:Consolas; font-size:4.5vw;"> The forty-third International Conference on Machine Learning (ICML 2026) </span><br/>
-
-                            <span style="font-size:4.5vw;">
-                            <a href="https://arxiv.org/pdf/2603.18334" class="btn btn-primary"><strong>PDF</strong></a></span>
-
-
-                        </li>
-
-                        <li>
-                            <span style="font-family:Consolas; font-size:4.5vw;"> 
-                              Arjun Tandon, Mehmet Fırat Dündar, Milkiyas Gebremichael Gebru, Darko Marinov, Yiling Lou, <strong>Wenxi Wang</strong></span><br/>
-                            <span style="font-family:Consolas; font-size:4.5vw; font-weight:bold;">Re-evaluating Detection of Equivalent Mutants Using LLMs: We Should Properly Measure How Far We Are </span><br/>
-                            <span style="font-family:Consolas; font-size:4.5vw;"> The 35th ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA 2026) </span><br/>
-
-                            <span style="font-size:4.5vw;">
-                            <a href="papers/LLM4Mutant-evel.pdf" class="btn btn-primary"><strong>PDF</strong></a></span>
-
-                        </li>
-
-                        <li>
-                            <span style="font-family:Consolas; font-size:4.5vw;"> 
-                              Mrigank Pawagi, Lize Shao, Hyeonmin Lee, Yixin Sun, <strong>Wenxi Wang</strong></span><br/>
-                            <span style="font-family:Consolas; font-size:4.5vw; font-weight:bold;"> RFCScope: Detecting Logical Ambiguities in Internet Protocol Specifications</span><br/>
-                            <span style="font-family:Consolas; font-size:4.5vw;"> The 40th IEEE/ACM International Conference on Automated Software Engineering (ASE 2025)</span><br/>
-
-                           <span style="font-size:4.5vw;">
-                            <a href="papers/rfcscope/rfcscope_paper.pdf" class="btn btn-primary"><strong>PDF</strong></a></span>
-
-                            <span style="font-size:4.5vw;">
-                            <a href="papers/rfcscope/rfcscope_slides.pdf" class="btn btn-primary"><strong>Slides</strong></a></span>
-
-                            <span style="font-size:4.5vw;">
-                            <a href="papers/rfcscope/rfcscope_poster.pdf" class="btn btn-primary"><strong>Poster</strong></a></span>
-                            
-                        </li>
-
-                        <li>
-                            <span style="font-family:Consolas; font-size:4.5vw;"> 
-                                <strong>Wenxi Wang</strong>, Yang Hu, Mohit Tiwari, Sarfraz Khurshid, Kenneth McMillan, Risto Miikkulainen</span><br/>
-                            <span style="font-family:Consolas; font-size:4.5vw; font-weight:bold;">NeuroBack: Improving CDCL SAT Solving using Graph Neural Networks</span><br/>
-                            <span style="font-family:Consolas; font-size:4.5vw;"> The 12th International Conference on Learning Representations (ICLR 2024)</span><br/>
-                            <span style="font-size:4.5vw;">
-                            <a href="https://arxiv.org/pdf/2110.14053.pdf" class="btn btn-primary"><strong>PDF</strong></a> <!-- <a href="https://huggingface.co/datasets/neuroback/DataBack" class="btn btn-primary"><strong>DATA</strong></a> --> </span>
-                        </li>
-    
-                        <li>
-                            <span style="font-family:Consolas; font-size:4.5vw;"> Yang Hu*, <strong>Wenxi Wang</strong>*, Sarfraz Khurshid, Mohit Tiwari</span><br/>
-                            <span style="font-family:Consolas; font-size:4.5vw; font-weight:bold;">Interactive Greybox Penetration Testing for Cloud Access Control using IAM Modeling and Deep Reinforcement Learning</span><br/>
-                            <span style="font-family:Consolas; font-size:4.5vw;">arXiv preprint                     
-                            </span><br/>
-                            <span style="font-family:Consolas; font-size:4.5vw;">* denotes that these authors contribute equally to the paper                  
-                            </span><br/>
-    
-                            <span style="font-size:4.5vw;">
-                            <a href="https://browse.arxiv.org/pdf/2304.14540.pdf" class="btn btn-primary"><strong>PDF</strong></a></span>
-                        </li>
-    
-                        <li>
-                            <span style="font-family:Consolas; font-size:4.5vw;"> Yang Hu*, <strong>Wenxi Wang</strong>*, Sarfraz Khurshid, Kenneth McMillan, Mohit Tiwari</span><br/>
-                            <span style="font-family:Consolas; font-size:4.5vw; font-weight:bold;">Fixing Privilege Escalations in Cloud Access Control with MaxSAT and Graph Neural Networks</span><br/>
-                            <span style="font-family:Consolas; font-size:4.5vw;">The 38th IEEE/ACM International Conference on Automated Software Engineering (ASE 2023)</span><br/>
-    
-                            <span style="font-family:Consolas; font-size:4.5vw;">* denotes that these authors contribute equally to the paper.</span><br/>
-    
-                            <span style="font-size:4.5vw;">
-                            <a href="papers/IAMPERE_ase2023.pdf" class="btn btn-primary"><strong>PDF</strong></i></a> <!--<a href="papers/ase23-slides.pdf" class="btn btn-primary"><strong>SLIDES</strong></a> <a href="https://github.com/githubhuyang/iampere" class="btn btn-primary"><strong>CODE</strong></a>--></span>
-    
-                        </li>
-    
-                        <li>
-                            <span style="font-family:Consolas; font-size:4.5vw;"> Armin Biere, Nils Froleyks, <strong>Wenxi Wang</strong></span><br/>
-                            <span style="font-family:Consolas; font-size:4.5vw; font-weight:bold;">CadiBack: Extracting Backbones with CaDiCaL</span><br/>
-                            <span style="font-family:Consolas; font-size:4.5vw;">The 26th International Conference on Theory and Applications of Satisfiability Testing (SAT 2023, Tool Paper)</span><br/>
-    
-                            <span style="font-size:4.5vw;">
-                            <a href="papers/cadiback.pdf" class="btn btn-primary"><strong>PDF</strong></a> <!-- <a href="https://github.com/arminbiere/cadiback" class="btn btn-primary"><strong>CODE</strong></a>--> </span>
-                        </li>
-    
-                        <li>
-                            <span style="font-family:Consolas; font-size:4.5vw;"> <strong>Wenxi Wang</strong>, Yang Hu, Kenneth McMillan, Sarfraz Khurshid</span><br/>
-                            <span style="font-family:Consolas; font-size:4.5vw; font-weight:bold;">SymMC: Approximate Model Enumeration and Counting Using Symmetry Information for Alloy Specifications</span><br/>
-                            <span style="font-family:Consolas; font-size:4.5vw;">The 21st ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE 2022)</span><br/>
-    
-                            <span style="font-size:4.5vw;">
-                            <a href="papers/SymMC.pdf" class="btn btn-primary"><strong>PDF</strong></a> <!--<a href="https://github.com/wenxiwang/SymMC-Tool" class="btn btn-primary"><strong>CODE</strong></a>--></span>
-                        </li>
-    
-                        <li>
-                            <span style="font-family:Consolas; font-size:4.5vw;"> Chengpeng Li, Chenguang Zhu, <strong>Wenxi Wang</strong>, August Shi</span><br/>
-                            <span style="font-family:Consolas; font-size:4.5vw; font-weight:bold;">Repairing Order-Dependent Flaky Tests via Test Generation</span><br/>
-                            <span style="font-family:Consolas; font-size:4.5vw;">The 44th International Conference on Software Engineering (ICSE 2022)</span><br/>
-    
-                            <span style="font-size:4.5vw;">
-                            <a href="papers/ICSE2022.pdf" class="btn btn-primary"><strong>PDF</strong></a></span>
-                        </li>
-    
-                        <li>
-                            <span style="font-family:Consolas; font-size:4.5vw;"> <strong>Wenxi Wang</strong>, Pu Yi, Sarfraz Khurshid, Darko Marinov</span><br/>
-                            <span style="font-family:Consolas; font-size:4.5vw; font-weight:bold;">Initial Results on Counting Test Orders for Order-Dependent Flaky Tests using Alloy</span><br/>
-                            <span style="font-family:Consolas; font-size:4.5vw;">The 33rd IFIP International Conference on Testing Software and Systems (ICTSS 2021) (short paper)</span><br/>
-    
-                            <span style="font-size:4.5vw;">
-                            <a href="papers/ictss2021.pdf" class="btn btn-primary"><strong>PDF</strong></a></span>
-                        </li>
-    
-                        <li>
-                            <span style="font-family:Consolas; font-size:4.5vw;"> Yang Hu, <strong>Wenxi Wang</strong>, Casen Hunger, Riley Wood, Sarfraz Khurshid, Mohit Tiwari </span><br/>
-                            <span style="font-family:Consolas; font-size:4.5vw; font-weight:bold;">ACHyb: A Hybrid Analysis Approach to Detect Kernel Access Control Vulnerabilities</span><br/>
-                            <span style="font-family:Consolas; font-size:4.5vw;">The 20th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software  Engineering (ESEC/FSE 2021) </span><br/>
-    
-                            <span style="font-size:4.5vw;">
-                            <a href="papers/ACHyb.pdf" class="btn btn-primary"><strong>PDF</strong></a></span>
-                        </li>
-    
-                        <li>
-                            <span style="font-family:Consolas; font-size:4.5vw;"> <strong>Wenxi Wang</strong>, Muhammad Usman, Alyas Almaawi, Kaiyuan Wang, Kuldeep S. Meel and Sarfraz Khurshid </span><br/>
-                            <span style="font-family:Consolas; font-size:4.5vw; font-weight:bold;">A Study of Symmetry Breaking Predicates and Model Counting</span><br/>
-                            <span style="font-family:Consolas; font-size:4.5vw;">International Conference on Tools and Algorithms for the Construction and Analysis of Systems (TACAS 2020) </span><br/>
-                            <span style="font-size:4.5vw;">
-                            <a href="papers/symmetry_study.pdf" class="btn btn-primary"><strong>PDF</strong></a> <!-- <a href="https://github.com/wenxiwang/TACAS2020" class="btn btn-primary"><strong>DATA</strong></a>--></span>
-                        </li>
-    
-                        <li>
-                            <span style="font-family:Consolas; font-size:4.5vw;"> Jiayi Yang, <strong>Wenxi Wang</strong>, Darko Marinov, Sarfraz Khurshid </span><br/>
-                            <span style="font-family:Consolas; font-size:4.5vw; font-weight:bold;">AlloyMC: Alloy Meets Model Counting</span><br/>
-                            <span style="font-family:Consolas; font-size:4.5vw;">The ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering(ESEC/FSE 2020, Tool Demo) </span><br/>
-                            <span style="font-size:4.5vw;">
-                            <a href="papers/AlloyMC.pdf" class="btn btn-primary"><strong>PDF</strong></a></span>
-                        </li>
-    
-                        <li>
-                            <span style="font-family:Consolas; font-size:4.5vw;"> Muhammad Usman, <strong>Wenxi Wang</strong>, Sarfraz Khurshid </span><br/>
-                            <span style="font-family:Consolas; font-size:4.5vw; font-weight:bold;">TestMC: Testing Model Counters Using Differential and Metamorphic Testing</span><br/>
-                            <span style="font-family:Consolas; font-size:4.5vw;">The 35th IEEE/ACM International Conference on Automated Software Engineering (ASE 2020) </span><br/>
-                            <span style="font-size:4.5vw;">
-                            <a href="papers/TestMC.pdf" class="btn btn-primary"><strong>PDF</strong></a></span>
-                        </li>
-    
-                        <li>
-                            <span style="font-family:Consolas; font-size:4.5vw;"> Muhammad Usman, <strong>Wenxi Wang</strong>, Kaiyuan Wang, Marko Vasic, Haris Vikalo, Sarfraz Khurshid </span><br/>
-                            <span style="font-family:Consolas; font-size:4.5vw; font-weight:bold;">A Study of the Learnability of Relational Properties (Model Counting Meets Machine Learning)</span><br/>
-                            <span style="font-family:Consolas; font-size:4.5vw;">The 41st ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI 2020) </span><br/>
-                            <span style="font-size:4.5vw;">
-                            <a href="papers/PLDI2020.pdf" class="btn btn-primary"><strong>PDF</strong></a></span>
-                        </li>
-    
-                        <li>
-                            <span style="font-family:Consolas; font-size:4.5vw;"> Muhammad Usman, <strong>Wenxi Wang</strong>, Kaiyuan Wang, Cagdas Yelen, Nima Dini and Sarfraz Khurshid </span><br/>
-                            <span style="font-family:Consolas; font-size:4.5vw; font-weight:bold;">A Study of Learning Likely Data Structure Properties using Machine Learning Models</span><br/>
-                            <span style="font-family:Consolas; font-size:4.5vw;">International Journal on Software Tools for Technology Transfer (STTT 2020) </span><br/>
-                            <span style="font-size:4.5vw;">
-                            <a href="papers/sttt2020.pdf" class="btn btn-primary"><strong>PDF</strong></a></span>
-                        </li>
-    
-                        <li>
-                            <span style="font-family:Consolas; font-size:4.5vw;"> <strong>Wenxi Wang</strong>, Kaiyuan Wang, Milos Gligoric, Sarfraz Khurshid </span><br/>
-                            <span style="font-family:Consolas; font-size:4.5vw; font-weight:bold;">Incremental Analysis of Evolving Alloy Models</span><br/>
-                            <span style="font-family:Consolas; font-size:4.5vw;">International Conference on Tools and Algorithms for the Construction and Analysis of Systems (TACAS 2019) </span><br/>
-                            <span style="font-size:4.5vw;">
-                            <a href="papers/incrementalAlloy.pdf" class="btn btn-primary"><strong>PDF</strong></a> <!--<a href="https://github.com/wenxiwang/iAlloy-dataset" class="btn btn-primary"><strong>DATA</strong></a>--></span>
-                        </li>
-    
-                        <li>
-                            <span style="font-family:Consolas; font-size:4.5vw;"> Muhammad Usman, <strong>Wenxi Wang</strong>, Kaiyuan Wang, Cagdas Yelen, Nima Dini and Sarfraz Khurshid </span><br/>
-                            <span style="font-family:Consolas; font-size:4.5vw; font-weight:bold;">A Study of Learning Data Structure Invariants Using Off-the-shelf Tools</span><br/>
-                            <span style="font-family:Consolas; font-size:4.5vw;">International SPIN Symposium on Model Checking of Software (SPIN 2019) </span><br/>
-                            <span style="font-size:4.5vw;">
-                            <a href="papers/spin2019.pdf" class="btn btn-primary"><strong>PDF</strong></a></span>
-                        </li>
-    
-                        <li>
-                            <span style="font-family:Consolas; font-size:4.5vw;"> <strong>Wenxi Wang</strong>, Kaiyuan Wang, Mengshi Zhang, Sarfraz Khurshid </span><br/>
-                            <span style="font-family:Consolas; font-size:4.5vw; font-weight:bold;">Learning to Optimize the Alloy Analyzer</span><br/>
-                            <span style="font-family:Consolas; font-size:4.5vw;">IEEE International Conference on Software Testing, Verification and Validation (ICST 2019) </span><br/>
-                            <span style="font-size:4.5vw;">
-                            <a href="papers/Learning_to_Optimize_the_Alloy_Analyzer.pdf" class="btn btn-primary"><strong>PDF</strong></a></span>
-                        </li>
-    
-                        <li>
-                            <span style="font-family:Consolas; font-size:4.5vw;"> <strong>Wenxi Wang</strong>, Harald Sondergaard, Peter J. Stuckey </span><br/>
-                            <span style="font-family:Consolas; font-size:4.5vw; font-weight:bold;">Wombit: A Portfolio Bit-Vector Solver using Word-Level Propagation</span><br/>
-                            <span style="font-family:Consolas; font-size:4.5vw;">Journal of Automated Reasoning (JAR 2018) </span><br/>
-                            <span style="font-size:4.5vw;">
-                            <a href="papers/Wombit.pdf" class="btn btn-primary"><strong>PDF</strong></a></span>
-                        </li>
-    
-                        <li>
-                            <span style="font-family:Consolas; font-size:4.5vw;"> <strong>Wenxi Wang</strong>, Harald Sondergaard, Peter J. Stuckey </span><br/>
-                            <span style="font-family:Consolas; font-size:4.5vw; font-weight:bold;">A Bit-Vector Solver with Word-Level Propagation</span><br/>
-                            <span style="font-family:Consolas; font-size:4.5vw;">Integration of AI and OR Techniques in Constraint Programming (CPAIOR 2016) </span><br/>
-                            <span style="font-size:4.5vw;">
-                            <a href="papers/cpaior2016.pdf" class="btn btn-primary"><strong>PDF</strong></a></span>
-                        </li>
-                    </ol>
-                </div>
-            </div>
-    
-            <div class="row py-2">
-                <!-- services -->
-                <div class="col-12" id="services">
-                    <h3>Services</h3>
-                    <hr>
-                    <span style="font-family:Consolas; font-size:4.5vw;">
-                        <ul>
-                            <li>OOPSLA 2027 PC Member</li>
-                            <li>FSE 2027 PC Member</li>
-                            <li>ICSE 2027 PC Member</li>
-                            <li>ICSE 2026 PC Member</li>
-                            <li>CAV 2025 PC Member</li>
-                            <li>Session Chair of “LLM for SE 2” and "SE for AI 2" sessions in ASE 2024</li>
-                            <li>LLM4Code 2025 Workshop PC Member</li>
-                            <li>OOPSLA 2025 PC Member</li>
-                            <li>ASE 2024 PC Member</li>
-                        	<li>TOSEM Reviewer</li>
-                            <li>ICLR 2024 Reviewer</li>
-                            <li>Session Chair of “Verification and Testing” session in ECOOP 2023</li>
-                            <li>NeurIPS 2023 Reviewer</li>
-                            <li>ICML 2023 Reviewer</li>
-                            <li>PLDI 2023 Artifact Evaluation Committee Member</li>
-                            <li>ECOOP 2023 Artifact Evaluation Committee Member and Extended Review Committee Member</li>
-                            <li>ISSTA 2023 Artifact Evaluation Committee Member</li>
-                            <li>USENIX Security 2023 Artifact Evaluation Committee Member</li>
-                            <li>NeurIPS 2022 Reviewer</li>
-                            <li>ISSTA 2022 Artifact Evaluation Committee Member</li>
-                            <li>PLDI 2022 Artifact Evaluation Committee Member</li>
-                            <li>PLDI 2021 Artifact Evaluation Committee Member</li>
-                            <li>External Reviewer: TACAS 2022, FSE 2021, ICST 2020, ASE 2020, ISSRE 2020, and ICSE 2019</li>
-                        </ul>
-                    </span>
-                </div>
-            </div>
-    
-            <div class="row py-2">
-                <!-- teaching -->
-                <div class="col-12" id="teaching">
-                    <h2>Teaching</h2>
-                    <hr>
-                    <div style="font-family: Consolas; font-size: 1.5em;">
-                    <ul>
-                        <li>
-                            <b>[Fall 2024]</b>
-                            <a href="https://wenxiwang.github.io/CS6501-016.html">
-                                CS6501 Machine Learning for Software Reliability
-                            </a>,
-                            Graduate Level, UVA
-                        </li>
-
-                        <li>
-                            <b>[Fall 2025]</b>
-                            <a href="https://wenxiwang.github.io/CS6501-006.html">
-                                CS6501 Machine Learning for Software Reliability
-                            </a>,
-                            Graduate Level, UVA
-                        </li>
-
-                        <li>
-                            <b>[Fall 2026]</b>
-                            <a href="https://wenxiwang.github.io/st-3250-schedule/section2-schedule.html">
-                                CS3250 Software Testing
-                            </a>,
-                            Undergraduate Level, UVA
-                        </li>
-                    </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    
     <footer class="text-center py-3 bg-dark text-white">
         <p>© 2026 Wenxi Wang Personal Webpage</p>
     </footer>
