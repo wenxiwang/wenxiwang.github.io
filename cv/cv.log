@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.16)  25 SEP 2026 14:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.16)  18 OCT 2026 16:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1205,7 +1205,13 @@ al/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local
 [2{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc
 }]
 No file a.bbl.
-) (./preprints.tex) (./patent.tex
+) (./preprints.tex
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\new@ifnextchar' on input line 20.
+
+No file a.bbl.
+) (./patent.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\new@ifnextchar' on input line 20.
@@ -1224,9 +1230,11 @@ No file a.bbl.
 
 [3]) (./awards.tex) (./teaching.tex) (./mentoring.tex
 
-[4]) (./service.tex)
+[4]) (./service.tex
 
-[5] 
+[5])
+
+[6] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (./cv.aux)
  ***********
@@ -1239,7 +1247,7 @@ LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.83pt have occurred.
 
 Package rerunfilecheck Info: File `cv.out' has not changed.
-(rerunfilecheck)             Checksum: B29FABDC74CE860C403980BB9DD53F70;1447.
+(rerunfilecheck)             Checksum: 0401AAFE5445FA1DDFD19068C34FFC22;1724.
  )
 (\end occurred inside a group at level 6)
 
@@ -1251,13 +1259,13 @@ Package rerunfilecheck Info: File `cv.out' has not changed.
 ### simple group (level 1) entered at line 2 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 32965 strings out of 473579
- 626043 string characters out of 5728233
- 1046436 words of memory out of 5000000
- 55037 multiletter control sequences out of 15000+600000
- 587093 words of font info for 161 fonts, out of 8000000 for 9000
+ 32982 strings out of 473579
+ 626226 string characters out of 5728233
+ 1044468 words of memory out of 5000000
+ 55040 multiletter control sequences out of 15000+600000
+ 587648 words of font info for 166 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 93i,14n,120p,999b,658s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 93i,14n,120p,999b,657s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/fontawes
 ome5/FontAwesome5Free-Regular.pfb></usr/local/texlive/2024/texmf-dist/fonts/typ
 e1/public/fontawesome5/FontAwesome5Free-Solid.pfb></usr/local/texlive/2024/texm
@@ -1271,10 +1279,10 @@ ts/type1/public/cm-super/sfss1000.pfb></usr/local/texlive/2024/texmf-dist/fonts
 ype1/public/cm-super/sfss1440.pfb></usr/local/texlive/2024/texmf-dist/fonts/typ
 e1/public/cm-super/sfss3583.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1
 /public/cm-super/sfsx1095.pfb>
-Output written on cv.pdf (5 pages, 192811 bytes).
+Output written on cv.pdf (6 pages, 194345 bytes).
 PDF statistics:
- 247 PDF objects out of 1000 (max. 8388607)
- 212 compressed objects within 3 object streams
- 45 named destinations out of 1000 (max. 500000)
- 47229 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 262 PDF objects out of 1000 (max. 8388607)
+ 226 compressed objects within 3 object streams
+ 49 named destinations out of 1000 (max. 500000)
+ 47245 words of extra memory for PDF output out of 51595 (max. 10000000)
 
